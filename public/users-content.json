@@ -1,0 +1,147 @@
+{
+  "source": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "e05b02c7-821a-439f-9950-0f5ea48fb1d3",
+    "sourceTool": "user-calicat/get_design_data",
+    "layerName": "产品场景实践库-用户管理页面 2"
+  },
+  "sidebar": {
+    "title": "产品场景实践库",
+    "mainNav": [
+      {
+        "label": "首页",
+        "active": false
+      },
+      {
+        "label": "产品场景库",
+        "active": false
+      },
+      {
+        "label": "产品解决方案",
+        "active": false
+      },
+      {
+        "label": "客户案例",
+        "active": false
+      }
+    ],
+    "manageNav": [
+      {
+        "label": "概览",
+        "active": false
+      },
+      {
+        "label": "基础数据管理",
+        "active": false
+      },
+      {
+        "label": "用户管理",
+        "active": true
+      },
+      {
+        "label": "权限管理",
+        "active": false
+      },
+      {
+        "label": "开放管理",
+        "active": false
+      }
+    ],
+    "systemNav": [
+      "系统设置",
+      "操作日志"
+    ],
+    "user": {
+      "name": "张磊",
+      "role": "产品经理"
+    }
+  },
+  "topbar": {
+    "breadcrumb": [
+      "首页",
+      "系统管理",
+      "用户管理"
+    ],
+    "searchPlaceholder": "搜索用户..."
+  },
+  "page": {
+    "title": "用户管理",
+    "subtitle": "管理系统用户账户和权限",
+    "createButton": "新增用户"
+  },
+  "filters": [
+    {
+      "label": "关键词",
+      "value": "搜索用户名、姓名或邮箱..."
+    },
+    {
+      "label": "部门",
+      "value": "全部部门"
+    },
+    {
+      "label": "权限",
+      "value": "全部权限"
+    }
+  ],
+  "tableColumns": [
+    "用户名",
+    "姓名",
+    "邮箱",
+    "部门",
+    "权限",
+    "操作"
+  ],
+  "rows": [
+    {
+      "userId": "U-001",
+      "username": "zhang.lei",
+      "name": "张磊",
+      "email": "zhang.lei@example.com",
+      "department": "产品部",
+      "permission": "管理"
+    },
+    {
+      "userId": "U-002",
+      "username": "wang.xiaoming",
+      "name": "王小明",
+      "email": "wang.xm@example.com",
+      "department": "供应链管理部",
+      "permission": "编辑"
+    },
+    {
+      "userId": "U-003",
+      "username": "li.jing",
+      "name": "李静",
+      "email": "li.jing@example.com",
+      "department": "市场部",
+      "permission": "编辑"
+    },
+    {
+      "userId": "U-004",
+      "username": "zhao.wei",
+      "name": "赵伟",
+      "email": "zhao.wei@example.com",
+      "department": "研发部",
+      "permission": "编辑"
+    },
+    {
+      "userId": "U-005",
+      "username": "chen.sisi",
+      "name": "陈思思",
+      "email": "chen.ss@example.com",
+      "department": "财务部",
+      "permission": "编辑"
+    }
+  ],
+  "pagination": {
+    "from": 1,
+    "to": 5,
+    "total": 23,
+    "current": 1,
+    "pages": [
+      1,
+      2,
+      3
+    ]
+  }
+}

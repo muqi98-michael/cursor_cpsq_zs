@@ -1,0 +1,191 @@
+{
+  "source": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "d2aeb5ab-8b11-4d78-86c8-586541b6cc68",
+    "sourceTool": "user-user-calicat/get_design_data",
+    "layerName": "产品场景库-列表页"
+  },
+  "sidebar": {
+    "title": "产品场景实践库",
+    "mainNav": [
+      {
+        "label": "首页",
+        "active": false
+      },
+      {
+        "label": "产品场景库",
+        "active": true
+      },
+      {
+        "label": "产品解决方案",
+        "active": false
+      },
+      {
+        "label": "客户案例",
+        "active": false
+      }
+    ],
+    "manageNav": [
+      "概览",
+      "基础数据管理",
+      "用户管理",
+      "权限管理",
+      "开放管理"
+    ],
+    "systemNav": [
+      "系统设置",
+      "操作日志"
+    ],
+    "user": {
+      "name": "张产品",
+      "role": "产品经理 | 管理权限"
+    }
+  },
+  "topbar": {
+    "breadcrumb": [
+      "首页",
+      "产品场景库"
+    ],
+    "searchPlaceholder": "搜索场景..."
+  },
+  "page": {
+    "title": "产品场景库",
+    "subtitle": "管理和维护企业产品业务场景",
+    "createButton": "新增场景"
+  },
+  "filters": [
+    {
+      "label": "产品",
+      "value": "全部产品"
+    },
+    {
+      "label": "行业",
+      "value": "全部行业"
+    },
+    {
+      "label": "状态",
+      "value": "全部状态"
+    },
+    {
+      "label": "创建时间",
+      "value": "全部时间"
+    }
+  ],
+  "tableColumns": [
+    "场景编号",
+    "名称",
+    "行业",
+    "痛点",
+    "关联资源",
+    "编辑者",
+    "创建时间",
+    "更新时间",
+    "状态",
+    "操作"
+  ],
+  "rows": [
+    {
+      "sceneId": "SC-2023002",
+      "name": "供应链协同管理场景",
+      "industry": "制造业",
+      "painPoint": "供应链信息不透明，协同效率低",
+      "solutionCount": 1,
+      "caseCount": 2,
+      "editor": "李研发",
+      "createdAt": "2023-04-25",
+      "updatedAt": "2023-06-25",
+      "status": "待完善",
+      "statusTone": "pending",
+      "actions": [
+        "查看",
+        "编辑",
+        "更多"
+      ]
+    },
+    {
+      "sceneId": "SC-2023001",
+      "name": "智能客服响应优化场景",
+      "industry": "电商行业",
+      "painPoint": "客服响应慢，客户满意度低",
+      "solutionCount": 2,
+      "caseCount": 3,
+      "editor": "张产品",
+      "createdAt": "2023-05-12",
+      "updatedAt": "2023-06-28",
+      "status": "已完善",
+      "statusTone": "done",
+      "actions": [
+        "查看",
+        "编辑",
+        "更多"
+      ]
+    },
+    {
+      "sceneId": "SC-2023003",
+      "name": "数据安全合规管理",
+      "industry": "金融行业",
+      "painPoint": "数据安全合规风险高，缺乏管理体系",
+      "solutionCount": 3,
+      "caseCount": 1,
+      "editor": "王安全",
+      "createdAt": "2023-03-18",
+      "updatedAt": "2023-06-27",
+      "status": "编辑中",
+      "statusTone": "editing",
+      "actions": [
+        "查看",
+        "编辑",
+        "更多"
+      ]
+    },
+    {
+      "sceneId": "SC-2023004",
+      "name": "全渠道营销管理",
+      "industry": "零售行业",
+      "painPoint": "多渠道数据分散，营销效果难评估",
+      "solutionCount": 2,
+      "caseCount": 4,
+      "editor": "赵营销",
+      "createdAt": "2023-02-10",
+      "updatedAt": "2023-06-26",
+      "status": "已完善",
+      "statusTone": "done",
+      "actions": [
+        "查看",
+        "编辑",
+        "更多"
+      ]
+    },
+    {
+      "sceneId": "SC-2023005",
+      "name": "智慧医疗数据分析",
+      "industry": "医疗健康",
+      "painPoint": "医疗数据分散，分析效率低下",
+      "solutionCount": 1,
+      "caseCount": 1,
+      "editor": "孙医疗",
+      "createdAt": "2023-01-05",
+      "updatedAt": "2023-06-24",
+      "status": "待完善",
+      "statusTone": "pending",
+      "actions": [
+        "查看",
+        "编辑",
+        "更多"
+      ]
+    }
+  ],
+  "pagination": {
+    "from": 1,
+    "to": 5,
+    "total": 128,
+    "current": 1,
+    "pages": [
+      1,
+      2,
+      3,
+      "...",
+      26
+    ]
+  }
+}

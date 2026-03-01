@@ -1,12 +1,27 @@
 function getSolutionIdFromPath() {
+  const queryId = new URLSearchParams(window.location.search).get("id");
+  if (queryId) return queryId;
   const parts = window.location.pathname.split("/").filter(Boolean);
   return parts[1] || "";
 }
 
 async function loadSolution(solutionId) {
-  const response = await fetch(`/api/solutions/${encodeURIComponent(solutionId)}`);
-  if (!response.ok) throw new Error("解决方案不存在");
-  return response.json();
+  const sources = ["./solutions-details.json", `/api/solutions/${encodeURIComponent(solutionId)}`];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) continue;
+      if (url.endsWith(".json")) {
+        const map = await response.json();
+        if (map[solutionId]) return map[solutionId];
+        continue;
+      }
+      return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("解决方案不存在");
 }
 
 function renderTags(targetId, items) {

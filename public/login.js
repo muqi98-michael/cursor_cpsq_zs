@@ -31,7 +31,7 @@ function startCodeCountdown(seconds) {
 
 function goHomepage() {
   window.sessionStorage.setItem("login_status", "ok");
-  window.location.href = "/";
+  window.location.href = window.AppRoutes?.getRouteForLabel("首页") || "/";
 }
 
 function bindEvents() {

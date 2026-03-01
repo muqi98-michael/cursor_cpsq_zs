@@ -207,9 +207,16 @@ function renderRanking(data, activeTab) {
 }
 
 async function loadDashboard() {
-  const response = await fetch("/api/dashboard-content");
-  if (!response.ok) throw new Error("无法加载仪表盘数据");
-  return response.json();
+  const sources = ["./dashboard-content.json", "/api/dashboard-content"];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("无法加载仪表盘数据");
 }
 
 async function bootstrap() {

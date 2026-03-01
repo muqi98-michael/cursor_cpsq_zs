@@ -1,0 +1,143 @@
+{
+  "source": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "047802fe-4c05-4c92-a8f4-572c57a9d31d",
+    "sourceTool": "user-calicat/get_design_data",
+    "layerName": "后台管理-权限管理页面"
+  },
+  "sidebar": {
+    "title": "产品场景实践库",
+    "mainNav": [
+      {
+        "label": "首页",
+        "active": false
+      },
+      {
+        "label": "产品场景库",
+        "active": false
+      },
+      {
+        "label": "产品解决方案",
+        "active": false
+      },
+      {
+        "label": "客户案例",
+        "active": false
+      }
+    ],
+    "manageNav": [
+      {
+        "label": "概览",
+        "active": false
+      },
+      {
+        "label": "基础数据管理",
+        "active": false
+      },
+      {
+        "label": "用户管理",
+        "active": false
+      },
+      {
+        "label": "权限管理",
+        "active": true
+      },
+      {
+        "label": "开放管理",
+        "active": false
+      }
+    ],
+    "systemNav": [
+      "系统设置",
+      "操作日志"
+    ],
+    "user": {
+      "name": "张磊",
+      "role": "产品经理"
+    }
+  },
+  "topbar": {
+    "breadcrumb": [
+      "首页",
+      "管理中心",
+      "权限管理"
+    ],
+    "searchPlaceholder": "搜索权限..."
+  },
+  "page": {
+    "title": "权限配置",
+    "subtitle": "配置系统功能操作权限",
+    "saveButton": "保存配置"
+  },
+  "templates": [
+    "管理",
+    "编辑",
+    "下载",
+    "查看"
+  ],
+  "activeTemplate": "管理",
+  "permissionTree": [
+    {
+      "module": "产品场景库",
+      "items": [
+        {
+          "name": "场景管理",
+          "actionStates": {
+            "查看": true,
+            "新增": true,
+            "编辑": true,
+            "删除": false,
+            "下载": true
+          }
+        },
+        {
+          "name": "场景分类管理",
+          "actionStates": {
+            "查看": true,
+            "新增": true,
+            "编辑": true,
+            "删除": false,
+            "下载": true
+          }
+        }
+      ]
+    },
+    {
+      "module": "产品解决方案",
+      "items": [
+        {
+          "name": "解决方案管理",
+          "actionStates": {
+            "查看": true,
+            "新增": true,
+            "编辑": true,
+            "删除": false,
+            "下载": true
+          }
+        }
+      ]
+    },
+    {
+      "module": "客户案例",
+      "items": [
+        {
+          "name": "案例管理",
+          "actionStates": {
+            "查看": true,
+            "新增": true,
+            "编辑": true,
+            "删除": false,
+            "下载": true
+          }
+        }
+      ]
+    }
+  ],
+  "actionOrder": [
+    "查看",
+    "新增",
+    "编辑",
+    "删除",
+    "下载"
+  ]
+}

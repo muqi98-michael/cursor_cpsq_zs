@@ -1,7 +1,24 @@
 async function loadCasesContent() {
-  const response = await fetch("/api/cases-content");
-  if (!response.ok) throw new Error("客户案例列表加载失败");
-  return response.json();
+  const sources = ["./cases-content.json", "/api/cases-content"];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("客户案例列表加载失败");
+}
+
+function withBase(path) {
+  const listRoute = window.AppRoutes?.getRouteForLabel("客户案例") || "";
+  const base = listRoute.replace(/\/cases\.html.*$/, "");
+  return `${base}${path}`;
+}
+
+function toCaseDetailUrl(caseId) {
+  return withBase(`/case-detail.html?id=${encodeURIComponent(caseId)}`);
 }
 
 function renderNav(containerId, items) {
@@ -74,12 +91,12 @@ function bindRowEvents() {
   document.getElementById("table-body").addEventListener("click", (event) => {
     const action = event.target.closest(".action-link");
     if (action) {
-      window.location.href = `/cases/${action.dataset.id}`;
+      window.location.href = toCaseDetailUrl(action.dataset.id);
       return;
     }
     const row = event.target.closest("tr.scene-row");
     if (row && row.dataset.caseId) {
-      window.location.href = `/cases/${row.dataset.caseId}`;
+      window.location.href = toCaseDetailUrl(row.dataset.caseId);
     }
   });
 }

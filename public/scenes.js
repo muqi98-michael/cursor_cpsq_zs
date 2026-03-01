@@ -1,7 +1,14 @@
 async function loadScenesContent() {
-  const response = await fetch("/api/scenes-content");
-  if (!response.ok) throw new Error("列表页内容加载失败");
-  return response.json();
+  const sources = ["./scenes-content.json", "/api/scenes-content"];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("列表页内容加载失败");
 }
 
 const PAGE_SIZE = 5;
@@ -10,6 +17,20 @@ let draftFilters = null;
 let appliedFilters = null;
 let currentPage = 1;
 let defaultFilters = null;
+
+function withBase(path) {
+  const listRoute = window.AppRoutes?.getRouteForLabel("产品场景库") || "";
+  const base = listRoute.replace(/\/scenes\.html.*$/, "");
+  return `${base}${path}`;
+}
+
+function toSceneDetailUrl(sceneId) {
+  return withBase(`/scene-detail.html?id=${encodeURIComponent(sceneId)}`);
+}
+
+function toSceneEditUrl(sceneId) {
+  return withBase(`/scene-edit.html?id=${encodeURIComponent(sceneId)}`);
+}
 
 function getNavIconSvg(label) {
   const icons = {
@@ -288,20 +309,20 @@ function bindEvents(filterOptions) {
       const action = target.dataset.action;
       const sceneId = target.dataset.id;
       if (action === "view") {
-        window.location.href = `/scenes/${sceneId}`;
+        window.location.href = toSceneDetailUrl(sceneId);
         return;
       }
       if (action === "edit") {
-        window.location.href = `/scenes/${sceneId}/edit`;
+        window.location.href = toSceneEditUrl(sceneId);
         return;
       }
-      window.location.href = `/scenes/${sceneId}?tab=more`;
+      window.location.href = toSceneDetailUrl(sceneId);
       return;
     }
 
     const row = event.target.closest("tr.scene-row");
     if (row && row.dataset.sceneId) {
-      window.location.href = `/scenes/${row.dataset.sceneId}`;
+      window.location.href = toSceneDetailUrl(row.dataset.sceneId);
     }
   });
 }

@@ -1,7 +1,14 @@
 async function loadPermissionsContent() {
-  const response = await fetch("/api/permissions-content");
-  if (!response.ok) throw new Error("权限配置内容加载失败");
-  return response.json();
+  const sources = ["./permissions-content.json", "/api/permissions-content"];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("权限配置内容加载失败");
 }
 
 function getNavIconSvg(label) {

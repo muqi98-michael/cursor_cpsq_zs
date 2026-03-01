@@ -1,7 +1,14 @@
 async function loadUsersContent() {
-  const response = await fetch("/api/users-content");
-  if (!response.ok) throw new Error("用户管理内容加载失败");
-  return response.json();
+  const sources = ["./users-content.json", "/api/users-content"];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("用户管理内容加载失败");
 }
 
 let appData = null;

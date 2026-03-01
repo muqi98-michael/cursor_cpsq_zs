@@ -1,7 +1,14 @@
 async function loadSolutionsContent() {
-  const response = await fetch("/api/solutions-content");
-  if (!response.ok) throw new Error("解决方案页内容加载失败");
-  return response.json();
+  const sources = ["./solutions-content.json", "/api/solutions-content"];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("解决方案页内容加载失败");
 }
 
 const PAGE_SIZE = 5;
@@ -9,6 +16,16 @@ let appData = null;
 let draftFilters = null;
 let appliedFilters = null;
 let currentPage = 1;
+
+function withBase(path) {
+  const listRoute = window.AppRoutes?.getRouteForLabel("产品解决方案") || "";
+  const base = listRoute.replace(/\/solutions\.html.*$/, "");
+  return `${base}${path}`;
+}
+
+function toSolutionDetailUrl(solutionId) {
+  return withBase(`/solution-detail.html?id=${encodeURIComponent(solutionId)}`);
+}
 
 function getNavIconSvg(label) {
   return window.AppRoutes?.getNavIconSvg(label) || "•";
@@ -196,12 +213,12 @@ function bindEvents(filterOptions) {
     if (action) {
       const solutionId = action.dataset.id;
       if (!solutionId) return;
-      window.location.href = `/solutions/${solutionId}`;
+      window.location.href = toSolutionDetailUrl(solutionId);
       return;
     }
     const row = event.target.closest("tr.scene-row");
     if (row && row.dataset.solutionId) {
-      window.location.href = `/solutions/${row.dataset.solutionId}`;
+      window.location.href = toSolutionDetailUrl(row.dataset.solutionId);
     }
   });
 }

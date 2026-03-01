@@ -1,12 +1,33 @@
 function getSceneIdFromPath() {
+  const queryId = new URLSearchParams(window.location.search).get("id");
+  if (queryId) return queryId;
   const parts = window.location.pathname.split("/").filter(Boolean);
   return parts[1] || "";
 }
 
 async function loadScene(sceneId) {
-  const response = await fetch(`/api/scenes/${encodeURIComponent(sceneId)}`);
-  if (!response.ok) throw new Error("场景不存在");
-  return response.json();
+  const sources = ["./scenes-details.json", `/api/scenes/${encodeURIComponent(sceneId)}`];
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) continue;
+      if (url.endsWith(".json")) {
+        const map = await response.json();
+        if (map[sceneId]) return map[sceneId];
+        continue;
+      }
+      return response.json();
+    } catch (error) {
+      // try next source
+    }
+  }
+  throw new Error("场景不存在");
+}
+
+function withBase(path) {
+  const listRoute = window.AppRoutes?.getRouteForLabel("产品场景库") || "";
+  const base = listRoute.replace(/\/scenes\.html.*$/, "");
+  return `${base}${path}`;
 }
 
 function fillForm(scene) {
@@ -18,7 +39,7 @@ function fillForm(scene) {
   document.getElementById("scene-pain").value = scene.painPoint;
   document.getElementById("scene-editor").value = scene.editor;
   document.getElementById("scene-updated").value = scene.updatedAt;
-  document.getElementById("back-detail").href = `/scenes/${scene.sceneId}`;
+  document.getElementById("back-detail").href = withBase(`/scene-detail.html?id=${encodeURIComponent(scene.sceneId)}`);
 }
 
 function bindSaveEvent(sceneId) {
