@@ -31,28 +31,28 @@ app.get("/api/dashboard-layers", (req, res) => {
   res.json(dashboardLayers);
 });
 
+const layerDataDir = process.env.LAYER_DATA_DIR || path.join(__dirname, "data", "layers");
+
 const layerFileMap = {
-  "fddb1787-4aa1-4198-8571-088c78ef040a":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/0add2116-41b2-47e1-8b02-1fd3ab3602f9.txt",
-  "2ba3ce23-c775-4d50-bf02-2f394c6e3c60":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/a2e1b2a0-32cf-49cf-ac05-3fb186e74ede.txt",
-  "fba722a5-cd8b-4549-8de3-79b8d20b2f81":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/5920d340-0dc0-4d48-bd7c-78a0a1bbbde4.txt",
-  "758694ba-8efa-4aeb-9c22-64c66c35f5e1":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/42cb5631-3de4-4d24-9695-68f73f891505.txt",
-  "e05b02c7-821a-439f-9950-0f5ea48fb1d3":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/7d9095e1-58c4-4780-bfe8-042c831f8d6a.txt",
-  "725be0e1-3496-4542-93f6-0b3a3256ee4c":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/146a95ff-8e8a-436e-ad4b-38ba05b5e2c3.txt",
-  "22797a59-a88e-4035-b8cb-c8239ef559b7":
-    "/Users/muqi/.cursor/projects/Users-workplace-2026AI-cursor-cpsq-zs/agent-tools/bb909a44-8221-48ff-9c96-394a2d836502.txt"
+  "fddb1787-4aa1-4198-8571-088c78ef040a": "0add2116-41b2-47e1-8b02-1fd3ab3602f9.txt",
+  "2ba3ce23-c775-4d50-bf02-2f394c6e3c60": "a2e1b2a0-32cf-49cf-ac05-3fb186e74ede.txt",
+  "fba722a5-cd8b-4549-8de3-79b8d20b2f81": "5920d340-0dc0-4d48-bd7c-78a0a1bbbde4.txt",
+  "758694ba-8efa-4aeb-9c22-64c66c35f5e1": "42cb5631-3de4-4d24-9695-68f73f891505.txt",
+  "e05b02c7-821a-439f-9950-0f5ea48fb1d3": "7d9095e1-58c4-4780-bfe8-042c831f8d6a.txt",
+  "725be0e1-3496-4542-93f6-0b3a3256ee4c": "146a95ff-8e8a-436e-ad4b-38ba05b5e2c3.txt",
+  "22797a59-a88e-4035-b8cb-c8239ef559b7": "bb909a44-8221-48ff-9c96-394a2d836502.txt"
 };
 
 app.get("/api/layer/:id", (req, res) => {
   const layerId = req.params.id;
-  const filePath = layerFileMap[layerId];
-  if (!filePath) {
+  const fileName = layerFileMap[layerId];
+  if (!fileName) {
     res.status(404).json({ message: "该图层未接入渲染服务" });
+    return;
+  }
+  const filePath = path.join(layerDataDir, fileName);
+  if (!fs.existsSync(filePath)) {
+    res.status(404).json({ message: "图层源文件未随项目打包，请检查 data/layers 或 LAYER_DATA_DIR 配置" });
     return;
   }
 

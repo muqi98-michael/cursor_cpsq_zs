@@ -31,6 +31,8 @@ npm start
 - 到新电脑后执行：`npm install && npm start`
 - 直接用 Cursor 打开该目录即可继续开发。
 - 或执行一键脚本：`bash scripts/new-computer-run.sh`
+- 或在项目根目录双击 `一键安装程序.command`（已按项目相对路径执行，不依赖绝对目录）。
+- 如需使用 `/api/layer/<node-id>`，请将图层源文件放到 `data/layers/`，或设置环境变量 `LAYER_DATA_DIR` 指向该目录。
 
 ## 一键克隆 + 启动（任意目录执行）
 
