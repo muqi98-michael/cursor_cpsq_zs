@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>场景详情</title>
+    <link rel="stylesheet" href="/scene-detail.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-dot"></span>
+          <span>产品场景实践库</span>
+        </div>
+        <div class="nav-group">
+          <p class="group-title">主导航</p>
+          <button class="nav-item" type="button"><span class="nav-icon">⌂</span><span>首页</span></button>
+          <button class="nav-item active" type="button"><span class="nav-icon">▦</span><span>产品场景库</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◉</span><span>产品解决方案</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◫</span><span>客户案例</span></button>
+        </div>
+        <div class="nav-group">
+          <p class="group-title">管理中心</p>
+          <button class="nav-item" type="button"><span class="nav-icon">▤</span><span>概览</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◍</span><span>基础数据管理</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◌</span><span>用户管理</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◈</span><span>权限管理</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">↗</span><span>开放管理</span></button>
+        </div>
+        <div class="nav-group">
+          <p class="group-title">系统</p>
+          <button class="nav-item" type="button"><span class="nav-icon">⚙</span><span>系统设置</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">⟳</span><span>操作日志</span></button>
+        </div>
+        <div class="sidebar-user">
+          <span class="avatar">ZL</span>
+          <div>
+            <p class="user-name">张磊</p>
+            <p class="user-role">产品经理</p>
+          </div>
+          <button class="logout-btn" type="button">↪</button>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="top-icons">
+            <button class="top-icon-btn" type="button">🔔</button>
+            <button class="top-icon-btn" type="button">?</button>
+          </div>
+        </header>
+
+        <div class="container">
+          <section class="title-card">
+            <div>
+              <h1 id="scene-name"></h1>
+              <p id="scene-subtitle"></p>
+            </div>
+            <div class="btns">
+              <button id="go-back" class="btn ghost" type="button">返回列表</button>
+              <button id="go-edit" class="btn primary" type="button">编辑</button>
+            </div>
+          </section>
+
+          <section class="meta-row" id="meta-row"></section>
+
+          <div class="content-grid">
+            <section class="left">
+              <article class="card"><h3>场景描述</h3><p id="scene-description"></p></article>
+              <article class="card"><h3>行业</h3><div id="industry-tag"></div></article>
+              <article class="card"><h3>参与角色</h3><div id="roles-list"></div></article>
+              <article class="card"><h3>痛点</h3><div id="pains-list"></div></article>
+              <article class="card"><h3>价值目标</h3><div id="goals-list"></div></article>
+              <article class="card"><h3>功能特性</h3><div id="features-list"></div></article>
+            </section>
+
+            <aside class="right">
+              <article class="card side-card">
+                <div class="side-title-row"><h3>产品解决方案</h3><button class="plus-btn" type="button">+</button></div>
+                <div id="solutions-list"></div>
+              </article>
+              <article class="card side-card">
+                <div class="side-title-row"><h3>客户案例</h3><button class="plus-btn" type="button">+</button></div>
+                <div id="cases-list"></div>
+              </article>
+              <article class="card side-card">
+                <div class="side-title-row"><h3>相关附件</h3><button class="plus-btn" type="button">+</button></div>
+                <div id="attachments-list"></div>
+                <button class="upload-btn" type="button">+ 上传附件</button>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="/navigation.js"></script>
+    <script src="/scene-detail.js"></script>
+  </body>
+</html>

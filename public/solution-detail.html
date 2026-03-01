@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>解决方案详情</title>
+    <link rel="stylesheet" href="/solution-detail.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-dot"></span>
+          <span>产品场景实践库</span>
+        </div>
+        <div class="nav-group">
+          <p class="group-title">主导航</p>
+          <button class="nav-item" type="button"><span class="nav-icon">⌂</span><span>首页</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">▦</span><span>产品场景库</span></button>
+          <button class="nav-item active" type="button"><span class="nav-icon">◉</span><span>产品解决方案</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◫</span><span>客户案例</span></button>
+        </div>
+        <div class="nav-group">
+          <p class="group-title">管理中心</p>
+          <button class="nav-item" type="button"><span class="nav-icon">▤</span><span>概览</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◍</span><span>基础数据管理</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◌</span><span>用户管理</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">◈</span><span>权限管理</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">↗</span><span>开放管理</span></button>
+        </div>
+        <div class="nav-group">
+          <p class="group-title">系统</p>
+          <button class="nav-item" type="button"><span class="nav-icon">⚙</span><span>系统设置</span></button>
+          <button class="nav-item" type="button"><span class="nav-icon">⟳</span><span>操作日志</span></button>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="actions">
+            <button id="go-edit" class="btn ghost" type="button">编辑</button>
+            <button id="go-download" class="btn primary" type="button">下载</button>
+          </div>
+        </header>
+
+        <div class="container">
+          <section class="headline">
+            <h1 id="solution-name"></h1>
+            <div id="meta-row" class="meta-row"></div>
+          </section>
+
+          <section class="card tags-card">
+            <div>
+              <h4>关联产品</h4>
+              <div id="related-products" class="tag-group"></div>
+            </div>
+            <div>
+              <h4>关联领域</h4>
+              <div id="related-domains" class="tag-group"></div>
+            </div>
+            <div>
+              <h4>关联应用</h4>
+              <div id="related-apps" class="tag-group"></div>
+            </div>
+          </section>
+
+          <section class="card">
+            <h3>项目背景</h3>
+            <div id="project-background" class="stack-text"></div>
+          </section>
+
+          <section class="card">
+            <h3>痛点与挑战</h3>
+            <ul id="pain-list" class="pain-list"></ul>
+          </section>
+
+          <section class="card">
+            <h3>关联产品特性及描述</h3>
+            <div id="feature-list" class="feature-list"></div>
+          </section>
+
+          <section class="card">
+            <h3>应用价值</h3>
+            <div id="value-list" class="value-grid"></div>
+          </section>
+
+          <section class="bottom-grid">
+            <article class="card mini-card">
+              <h3>关联场景</h3>
+              <div id="related-scenes" class="link-list"></div>
+            </article>
+            <article class="card mini-card">
+              <h3>关联资源</h3>
+              <div id="related-resources" class="link-list"></div>
+            </article>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/navigation.js"></script>
+    <script src="/solution-detail.js"></script>
+  </body>
+</html>

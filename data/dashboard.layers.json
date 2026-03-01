@@ -1,0 +1,2644 @@
+{
+  "meta": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "a3edc778-0542-4505-8721-c0b1fe9ea87a",
+    "total": 439,
+    "note": "No hidden flag found in MCP payload; exported all traversed layers as visible"
+  },
+  "layers": [
+    {
+      "id": "a3edc778-0542-4505-8721-c0b1fe9ea87a",
+      "name": "产品场景实践库-概览仪表盘",
+      "type": "Frame",
+      "level": 0
+    },
+    {
+      "id": "d0a3a092-225c-4c51-ade4-b0790951bf62",
+      "name": "主容器",
+      "type": "Frame",
+      "level": 1
+    },
+    {
+      "id": "167abcde-6f83-45b2-b83f-5721e5cfa14b",
+      "name": "左侧导航栏",
+      "type": "Frame",
+      "level": 2
+    },
+    {
+      "id": "e07a537e-c5aa-43c4-9fae-01736f29a4fa",
+      "name": "用户信息",
+      "type": "Frame",
+      "level": 3
+    },
+    {
+      "id": "1979efd5-b89b-444e-9d5b-e5d9e4591dab",
+      "name": "用户信息容器",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "8199778e-077e-4e87-b464-714896dcb574",
+      "name": "用户头像",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "792998ea-d82c-413b-bf2e-6ce0a6660e12",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "ac947e97-d00b-4450-99b6-9edc50e2d851",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "6540b7fc-13ae-4b47-852d-d01d2b1d4701",
+      "name": "用户信息文本",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "f74fb4f8-a94c-4df4-90f9-169876a335df",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "0647c3a5-b44e-4a5a-8faa-5502d4ed53f6",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "4874f714-3b72-4c5d-84db-88997ff20dd4",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "4f63197d-51c3-4af3-b151-a06cfdc6d7f1",
+      "name": "退出按钮",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "f3ddd77b-132b-4edb-ba8c-7724c5614cd0",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "7128a454-ad11-40a5-a138-0c26fd9b2c35",
+      "name": "Logo区域",
+      "type": "Frame",
+      "level": 3
+    },
+    {
+      "id": "17410384-9787-4c6e-a80d-6aeca4448987",
+      "name": "Logo图标",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "92d9bce8-028d-44a5-8442-036310ab63c9",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 5
+    },
+    {
+      "id": "ec5b5870-fd57-478d-ba41-d6a631ddb40b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "4beee881-dbf2-48ad-97bf-c7110c09a79b",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "742f4283-a821-44cd-863c-753b85f9d062",
+      "name": "导航菜单",
+      "type": "Frame",
+      "level": 3
+    },
+    {
+      "id": "b07c133c-4196-425b-9fe3-7523f8fe681a",
+      "name": "导航分组",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "0bbc6d77-13ef-41d7-a06e-cb9212119153",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "767a68aa-1261-4c41-944e-535aab7e2e11",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "48f50179-adc0-409e-9930-b5e90d0ef4c2",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "444a6a34-15ba-4cce-9dbe-b01f2092bebe",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "246687bd-f1c2-41ed-873f-be8fc11bb58f",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "306c8a9f-29dc-4ae2-8a21-5329836e350c",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "4078b869-36bd-4bce-8dfa-f0ff016312c9",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "dc37ed05-c17e-432a-8f4e-634aa040f205",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "700fb71f-9291-40f7-bfa6-15f93f45a148",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "2bb7ff66-aab5-4b93-ba73-af13f08733b5",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "e363076b-0d60-4db9-b2c9-f0c9792b76f1",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "8a10caca-655c-4cdc-870c-7b2b2d0be6ef",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "f052033e-0f0c-4e71-b95d-6886b82146e3",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "4a62cb51-df63-4a7a-bcf1-40599b3a20df",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "611edd5c-e6b6-4cfd-9970-c838d096c999",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "95bd5cec-57fd-4071-a269-c884d45c53f1",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "3735dc2c-75f1-41a4-b436-da37501398d2",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "93b45f66-ff83-4e2d-aa78-3731d84421ad",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "4706df2b-da37-4c2b-8471-9fd8f76b136e",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "3b5e036d-1ec5-46bf-a83f-e631e381366c",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "1c415d3e-ff97-4683-88ba-35a50161cbaa",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "8d93e886-7193-4541-8c28-9ac081031d90",
+      "name": "导航分组",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "d6f4b891-b397-4bd5-8e01-c5f915c6d8ff",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "018fdfe1-c641-47d0-9705-4ab6483420b6",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "631b7a63-0958-4d6b-b503-85fd441a2eed",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "06b79856-66d0-44ad-b9be-f6a08fbe590a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "93a57fd2-0e33-4ccc-b2fe-d64013a90c4d",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "85ac4690-9a82-40d7-8368-119d791c070c",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "621e5e44-e41b-40a2-8cac-884169adc058",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "450d9841-1e5e-4e5c-996a-4d49fcd0f1a6",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "1cb9bfe3-8dea-463b-abae-4f942d0ec1a8",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "5f8c1d55-54b8-4619-9cd7-b0e90dd74229",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "3cf9c853-b1d5-44eb-91e6-ea0385ce620e",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "047c5254-c34c-4ee5-91ad-2b6ba4a3e7a3",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "9f1a862a-01eb-44be-abcc-8ed4fc392bcd",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "9da7208c-f903-4a47-bd84-49436febbfcc",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "92a44903-2d46-4605-bb62-fa5395c971ba",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "7922b30f-c843-4b16-83b4-3d00b2afc2b8",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "586902ce-67d6-48ac-9ccf-79c4e18d1ef7",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "ed610951-92aa-4af5-a6a8-375a42d1e2e1",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "25eeb24e-7df3-44a3-9b25-b1653e7dda8f",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "16d696b9-1cf0-4ddc-8321-e67e3bfaf5f6",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "9d691809-0349-4bcc-b1e9-3273d7645d33",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "46f8fd0a-a461-454a-873d-c39947de810b",
+      "name": "导航分组",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "6e9f42b7-b8bd-45ac-9777-b2ea99579666",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "4fad6ad8-75e9-45f9-9b0c-eadb748d3573",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "091e4648-e3e9-412a-a594-18ac1cf3f0b9",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "647cee3f-91ff-44f5-bba0-39cfff3108e1",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "1d45969f-13b1-4112-9f0b-91c5ebfd53e2",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "b0f755dc-af0f-4bfa-bd5e-02cf042feb10",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "9027335e-44a3-4a5b-83ec-0765ffae342d",
+      "name": "导航项",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "0d9a3449-9c03-42d3-a914-2a766f421de5",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "94180b7c-9d94-45e8-8e29-30fde556e01a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "483f6808-e5b0-48f9-922a-f5d82aa466e2",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "49af38ea-a524-42db-9fb7-02b87fde3fab",
+      "name": "主内容区域",
+      "type": "Frame",
+      "level": 2
+    },
+    {
+      "id": "3ae9fcb4-f9e5-4516-ba36-bfcae41d531c",
+      "name": "顶部导航栏",
+      "type": "Frame",
+      "level": 3
+    },
+    {
+      "id": "c152f51a-a6b0-4810-af80-a936c5ac823f",
+      "name": "面包屑导航",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "dcd27a79-4198-4882-a5bc-eb0aa6e46343",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "5ad177f1-9967-4501-b975-bfabbb1c9954",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "301303f9-258e-45b5-a9a2-fda14b2d69fc",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 5
+    },
+    {
+      "id": "75d01e21-6343-45e1-ba02-e4325fa2ecea",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "b57fd639-d45f-450a-be4d-622fff872351",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "c8bdd766-ea8d-4473-bcd7-b31381ff8d74",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "a47fc8b1-12a0-4b07-b51d-06e69095ce5c",
+      "name": "右侧操作区",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "bcceb766-bfcd-4ce0-b739-8e14b5e01f7e",
+      "name": "日期筛选",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "1131e112-deae-4378-bebe-8f45818f3b2b",
+      "name": "下拉容器",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "3b1b4b33-e721-453c-8b84-527f9b19af81",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 7
+    },
+    {
+      "id": "0640ef35-6f74-4a28-925d-7b9be9e3b8f7",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "05f4eaf3-8a0f-413d-aa4e-0b1444b4be0d",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "49d8233b-75be-47d0-8a53-b69f93d76eae",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "32b81410-6da6-4d9e-8c7c-0bb81d81424d",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 7
+    },
+    {
+      "id": "eaeace18-fe6b-4d99-8422-ef2246088251",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "66b6e3e7-8e57-4a71-b40f-8238da971d66",
+      "name": "搜索框",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "4eb22ae0-2a6d-40a9-90e5-cf9c22c1db22",
+      "name": "输入框容器",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "25a9ab0b-4c79-4b07-9d98-628e40969bb5",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 7
+    },
+    {
+      "id": "ae3f9f12-a238-42fe-a412-b3367b04e69b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "2d210812-190f-471b-a775-cbae49340700",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "e05cef99-45c6-4595-b0f4-406d8ef05565",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "fa4c1d89-d3a5-413f-9be8-8c31b70afa4b",
+      "name": "通知按钮",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "a108360d-1d9d-4d5e-b028-e825d6c20ab8",
+      "name": "通知红点",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "242250e3-2306-4a9a-93ff-50db0a5459a6",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "63653a40-4de7-4867-a363-335481915a47",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "a8e73eca-bd94-4375-8486-66794ca6e7ba",
+      "name": "帮助按钮",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "7c4d7351-9af1-462b-98c4-e7e16354c688",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 6
+    },
+    {
+      "id": "50ff5259-8c00-4e16-b5e6-5d809c0da486",
+      "name": "内容区域",
+      "type": "Frame",
+      "level": 3
+    },
+    {
+      "id": "0c8ad16b-ea4a-4ba0-9b0a-3125d023355e",
+      "name": "页面标题栏",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "12ed4515-1e72-4c07-89ce-c089cc057de6",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "c5efada8-a27d-40e0-ab31-663e544dadca",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "66ed4034-b4aa-49ba-ad4f-50f6a7fb2194",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "9e2cab5e-b62e-4345-bbb8-6f918b6690e9",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "c8e6662f-cabb-41bc-b415-e89d5f1070f5",
+      "name": "核心指标卡片",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "980cc5c9-bd14-4842-b403-42409bfcbc75",
+      "name": "指标卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "ab4963b7-a92e-4549-8d7c-0f3fc52d7310",
+      "name": "指标标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "a735935a-a23d-4899-b76e-f0e1f26c99d9",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "d68476f1-0f82-44cf-9a70-b544ee028cd5",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "30381cc6-c7fa-4792-aa92-8b6bcf55f7da",
+      "name": "指标图标",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "ac460d7f-341c-464a-a69c-1c3b67b36653",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "cf8f994b-8ea3-40a0-98ab-1914357ba894",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "79c40b58-9800-4c70-969d-38b6a439f2af",
+      "name": "指标数值",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "9fde3086-690b-4115-bbfe-0d29a00e3bcd",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "dd66e137-060b-4d07-a8a7-cdfd6271da30",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "5b895b93-cc81-42d1-8a5b-ea4ac6814e66",
+      "name": "container",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "5ff6aa0a-48fc-4a18-88ff-ba1aa97c91a9",
+      "name": "指标变化",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "0a15f8a2-0b85-47cf-a381-13fa35454212",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 9
+    },
+    {
+      "id": "7a1a5ac9-e9d0-472f-8a34-6b558dd57e44",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "89c13dd0-d4b3-41d6-8bd0-41499ebd7a48",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "7637f412-89dd-4175-b1f5-4a62d17807c6",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "1828924e-ab28-470d-bcba-bfb766f6fb13",
+      "name": "指标卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "b5be6743-0125-458d-a52c-349641912db2",
+      "name": "指标标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "488d392d-2d1d-4573-ae85-19e47313994b",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "8340ac57-a024-48cc-87b5-83658eade842",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "0c462a18-1617-4ddd-ab88-7a21ecf6953f",
+      "name": "指标图标",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "e604e49b-24a3-4f2d-bdc1-db255d85eeda",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "3d6a9436-389a-479c-93d8-caf532b1dc5b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "d0de93f5-d437-4a8c-847c-2c498511abea",
+      "name": "指标数值",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "9764e697-1aaa-4c76-8daf-92be546c3444",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "646c59a7-5de4-4119-b097-ddc6ed5b431f",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "d59568a5-ea54-406e-9582-db3ca6dc650c",
+      "name": "container",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "7d504ca8-c448-4d3d-89e3-f97b88a9d821",
+      "name": "指标变化",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "0b740ec6-35b7-4ac1-af5e-efbdfad4461c",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 9
+    },
+    {
+      "id": "9ccf7aa3-673c-4fad-9473-5bf90c529db4",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "7daec7c9-a987-47fc-9f20-9d6b0764db74",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "4d4bb041-9ad1-42b0-84f7-ccea232775d2",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "da4547d1-9706-406b-9651-cf597d3de6c1",
+      "name": "指标卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "c7d6add3-1be5-4153-b880-02d22a50e525",
+      "name": "指标标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "a2bbc05a-9ce9-4b75-a224-7973c21a5d42",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "92dad962-0d3a-4055-921e-5fa885538473",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "fc5e2468-9cc9-482f-a030-7b58b90b021e",
+      "name": "指标图标",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "ac701d95-14d0-4159-a4ee-1c7ffef6c76c",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "888a376b-4594-402b-b38d-d4c10f1bd8e6",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "55a4f909-0631-4c2b-a692-64438e5f6ec9",
+      "name": "指标数值",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "ede06120-bdea-4f3f-9c10-9f4df083cf4f",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "dbc1624b-65d3-494b-b138-d6c06ecffc21",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "5c735618-b71f-48e8-aabf-0a2150e246bc",
+      "name": "container",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "dc588d72-ef3b-4f40-81bb-9c9b447d4b94",
+      "name": "指标变化",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "2e303e09-3d3a-406d-86ef-01a2115ee6d7",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 9
+    },
+    {
+      "id": "749f7c85-e05f-4c80-82aa-6bbb9042efad",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "fea4fb13-f147-4915-a938-ed2591a7c6a6",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "ec5b02e0-1577-49c6-a409-dd4d4c758bda",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "6a1d1296-e552-4874-86ba-aa2fdf844a09",
+      "name": "指标卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "049bcd38-b340-490c-8ebc-2f835fcec3e2",
+      "name": "指标标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "f8e5a417-71bd-455a-b7c3-0d6a2e7ecb60",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "3fffe83e-feff-426d-a0d8-1e1d1e8562e7",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "d24b38a0-65a0-4531-9df0-9687db1dbfb5",
+      "name": "指标图标",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "17f8f623-8f32-4b65-9991-d72e67ccc087",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "81c2013c-0807-424d-b248-d9d541c90a07",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "ce5a71aa-9b6a-403d-817d-9c1f38e3936d",
+      "name": "指标数值",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "dcea7c9c-077c-42ee-9bca-a4bffa2bd011",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "fe21fbd9-9d52-4dd0-ba0a-852b2315b74d",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "503b8cce-fc4a-4eb3-85ac-1c1d4ccc76a1",
+      "name": "container",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "9010bcae-60c0-4364-8bd4-d072532dda9a",
+      "name": "指标变化",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "e21fa9ea-f4dc-4d5e-a46d-e6dff9e17c71",
+      "name": "图层",
+      "type": "Paragraph",
+      "level": 9
+    },
+    {
+      "id": "372279b1-abbb-4850-8f14-5ae4006bd23c",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "f0a3b57f-d3b4-4095-b3dc-8a94427b3cd2",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "2006c9b9-7a7e-4f1d-a923-1ca8d15d1553",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "914d6833-de93-4de9-9be5-74d607552770",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "f49c7bc2-3454-4fa3-be62-b3e0cef0d83f",
+      "name": "状态分布卡片",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "dc613108-cc78-4b3c-8262-c1f8ac09f337",
+      "name": "分布卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "be8eedda-f129-4fe6-a811-e1f26a5f5b7c",
+      "name": "卡片标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "c17ff786-ab8b-4837-b450-88a8c75565b4",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "13b0ebee-c4f5-4229-817f-394f53e9e4ad",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "2531a7f0-3f5b-4906-907f-2af31c2a2c2f",
+      "name": "查看详情",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "bb184802-7fed-42e9-9941-327a145cd0aa",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "7b87ae58-3a2b-4e63-ab37-53a39f53ff3a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "6d8a4dbd-84d4-4933-af81-d7ec3396a07a",
+      "name": "分布图表",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "1893758e-a467-4cd9-9431-31f7157eeb4f",
+      "name": "饼图",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "d74838d8-4ca4-44f1-a921-dc3c326e2d90",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "58a6c215-178f-47b0-b0e5-ea65b1d89cbf",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "230458b5-d0f8-4c12-8425-7a0c902e55a0",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "190b5933-765e-4c25-8c30-512c7004f9a1",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "e11af73e-b6e9-47c5-91f3-112e3246c731",
+      "name": "28",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "bd50e81d-a6fd-49e5-b7e0-d134967500f5",
+      "name": "总数",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "4dd199ce-8b5a-4a4f-abe6-972ef1a70270",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "db780934-99d2-4f21-903e-2b97438d0cd8",
+      "name": "图例",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "888e292c-938c-4b57-a3dd-e67c5f8863e7",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "61806380-f0d7-47a4-a800-13e9521dbbc7",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "69fd9057-ae41-46fd-b836-9c8bf04a67a6",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "0bacbd58-ce59-434b-8bcc-63a6e1246d7e",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "897526d0-cecf-42c4-9859-22d374246c1b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "aa01c7bb-f4c9-4a9d-8ecb-9d00d1867fb5",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "e6c21c2b-3d05-473c-9a1a-a7348cfb162f",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "060f9bfe-f074-4eea-86f8-d8a5fc2571f1",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "95aded81-8759-4435-bf7e-e0353c9bceec",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "020b4945-fcd0-4f3a-b623-e9d4f16c2f92",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "a7401ac0-ead3-4eae-97b2-108ceb69ccfd",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "8360f02d-f091-4af3-a599-200e9e0c0303",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "d0a590d1-55ce-49d7-839a-376fb30eceda",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "d77ada23-2a3b-47b8-bfb0-2bb3e85dbaf5",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "d333ff46-8d1c-42c5-8ca3-4fba1708f3ed",
+      "name": "分布卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "611536ee-056e-4512-ad16-0fe6ae3a0b93",
+      "name": "卡片标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "6ec5aba9-a05b-4463-abff-eb2ce92802ba",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "6b5e3cbf-2a40-4db4-9ffe-db67cbdee48d",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "9468a3d6-490d-4678-90c7-1b159c316a09",
+      "name": "查看详情",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "f2f343db-a5d0-4177-aa79-86cfb76b8b5f",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "f9978eeb-0d95-4a38-aafe-82040c491581",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "a66f6b31-72dd-48be-92c1-13eec61fd7b9",
+      "name": "分布图表",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "db51fa74-e764-420c-b0c6-0da3868f7e33",
+      "name": "饼图",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "63034d45-f542-4d8b-a1ef-17364d84bab3",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "d820b766-d8b9-42b7-9825-aa2608244bf0",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "84fc3206-4b59-43cb-bb31-b10df98a507f",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "2621a916-12df-44e0-b586-b24b91bc4a5b",
+      "name": "23",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "324cb036-4f88-4b64-b35f-d1212e2e5242",
+      "name": "总数",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "163386b6-93fb-432e-b887-368f59920238",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "2e2c20c5-4041-42a1-a3a0-2cfd449a912d",
+      "name": "图例",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "1f577259-60a4-488c-bc67-e914ac34550c",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "1b14d033-d58e-4931-a858-2a365d001ce4",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "3e240d4f-9c4a-4871-bb34-4d38183d942b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "d5b03589-a99e-4a0a-a8d0-0c7ff4f774d0",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "dba38dc0-ff93-4f74-ac74-e79b3494f873",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "f18668c4-88c5-4579-b5f9-4711c477bde0",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "2d3f7792-9cd3-4daa-8752-9a10e5ace8bf",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "660cd35d-31c2-463f-87fa-5c609a38ba3b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "109f5bae-3ea2-4ae1-9da7-84d039b4deee",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "deb12c18-6ba1-43d4-a0cd-5ebde2bad063",
+      "name": "分布卡片",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "bcb190ec-83bb-4401-b334-06ebb404c18d",
+      "name": "卡片标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "09932b53-b2a7-44ff-a541-ae424bc2afc4",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "ec446cdb-d543-4cfd-86be-bdb70901e416",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "3f38b64a-8b9b-4b7b-812f-ae628552a706",
+      "name": "查看详情",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "06e73949-0ae1-4eaf-b384-bf82fc31ae93",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "fd672c05-f501-4488-852f-6b685090f9b7",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "d5d9acf3-1d3b-4c8b-85f0-8fdca737e2a4",
+      "name": "分布图表",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "cba225da-86de-4b5a-b001-d2ece027bfc9",
+      "name": "饼图",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "ff21ee75-6ba2-4bf6-998b-c071a1be5f18",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "27f95286-17e1-4b2a-b896-85acef09b85c",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "16bed1a4-da3b-4a60-88a7-5b82c856de4c",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "9b52bd42-714c-40bb-8d53-c60d8cb43d39",
+      "name": "18",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "97faedea-e49a-4a93-ae90-a543dbef1d1a",
+      "name": "总数",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "e022b95f-795f-4538-8f9d-e2301e7a6036",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "4648315f-ae9c-49df-a297-fba9c1a4aa4a",
+      "name": "图例",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "425e950e-f0fd-412a-8773-b6cac2608a7f",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "07f5ba22-2198-4742-8ae4-b8786b92aaad",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "51fc6244-f4e0-4efa-a561-00d660fe358e",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "a5f16a29-2cda-4527-8247-d3a4c797a464",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "741ae9fa-e58f-4c9c-a5bf-b0977f207856",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "ff32f094-dd6e-4bcf-94ac-6a15c9d82475",
+      "name": "图例项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "387419e7-3d44-4782-8f85-8ab5d6c08754",
+      "name": "图例颜色",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "c0de302d-5972-42cb-8b4a-21a6f6ca68f2",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "32cdc914-c36d-4618-b6b4-4fb99c5370dd",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "6247dfae-8eb5-4780-9898-60cb81d561e8",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "f6c12dd6-c381-476e-a40b-3fdb98389a91",
+      "name": "趋势和动态",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "37793277-0e47-4be0-8442-131d305e6256",
+      "name": "趋势图表",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "9994d906-e3ca-4b5d-a08e-08e0cb3a6b75",
+      "name": "图表标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "7041041b-5c29-4d27-acfb-a8d331f26262",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "da719631-1518-4724-8313-994bb815d82a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "163aa17d-61de-4ccf-a84a-1073bb5632ec",
+      "name": "图表筛选",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "c81980fc-d259-4c67-a5a4-060aaa455b4a",
+      "name": "筛选按钮",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "3849ba29-39d3-4e76-a4bf-e6dafd6e7be8",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "cb7744f3-0189-4cef-b85f-a49537746d1b",
+      "name": "筛选按钮",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "8beca709-02c4-4aa2-b118-6b533a67f5c9",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "2b551624-88fd-4e6c-afb1-b2f9f82e130d",
+      "name": "筛选按钮",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "ee943978-8aa1-4d85-8da3-4225936e17c2",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "ad7c4258-66bf-453d-80c6-7a71d4bfe7a9",
+      "name": "图表容器",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "ef01a985-b0ec-4da3-ae4a-4626e17962c5",
+      "name": "折线图",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "2918c205-6e6c-4b17-8096-b39adac951a3",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "e318c689-c598-478a-9c59-4e903f562dd0",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "980eab1c-2b72-4c83-b6c2-53b3f711978d",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "7aa5d20a-ee84-4d8c-baa3-91a20e38b50b",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "24e8a8ea-460c-4ddd-9131-ac92e84858f2",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "bec408b4-c85c-4859-a30e-b8d0600fe7fc",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "a38fa0c9-91d2-4b8e-a4ab-321b40486479",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "8a458a1a-ec33-4121-96ab-b121825cc076",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "5d6ebe6b-5367-4fb3-9ce8-a6ceaad5e8c6",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "935aa947-c28f-4b9f-92fd-7c01d5a7b0ad",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "73ae0084-31c5-4e60-bfa3-5023c5a4b392",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "b1c5f72d-b669-4ee7-b8db-bc8861d9de82",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "56436e94-55e7-4e91-ad34-bdc598f91d9b",
+      "name": "矢量",
+      "type": "Line",
+      "level": 8
+    },
+    {
+      "id": "225c7362-c2cf-4427-ba0e-0b039ef3dd28",
+      "name": "1月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "e4284b69-6a72-49af-b424-7c429242ed66",
+      "name": "2月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "ed2d56c7-dfbe-4bbd-bd1a-f99c9d4bee7f",
+      "name": "3月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "e07d603b-3443-489a-9a70-8996426527ba",
+      "name": "4月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "306e1e9a-4617-468e-8833-d693947c9a72",
+      "name": "5月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "4bafaf19-4307-4553-81b2-3a315a6d1d02",
+      "name": "6月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "96731b0c-b088-4de3-98d0-53117f88e7ca",
+      "name": "7月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "75b5ca82-8d9d-4204-b45c-fb0e1bb4f1f9",
+      "name": "8月",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "d21b560e-ee8c-4a87-bbc3-e6ec83244525",
+      "name": "0",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "859edea4-4b6f-4bfb-adb2-c79cfbb53995",
+      "name": "5",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "e5a0a938-75f6-4569-8411-9d46867ce0b4",
+      "name": "10",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "296fc65e-0182-48f9-9b58-588afeb224e0",
+      "name": "15",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "e1da2c65-30e9-43d6-bdf2-22fce3d70e10",
+      "name": "20",
+      "type": "Paragraph",
+      "level": 8
+    },
+    {
+      "id": "d8f9cb07-2000-4161-b773-52610e98f217",
+      "name": "矢量",
+      "type": "Polyline",
+      "level": 8
+    },
+    {
+      "id": "8e2e356f-4668-4c12-9e9b-57f9b2a234c9",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "cfe79cef-999e-4d8e-9712-111899383e7a",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "ef20cafa-4d93-423c-bd75-b2c3482c6495",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "3d9078f7-85d5-42fb-b7d2-f6d09d759981",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "7b2d98d4-bf86-4add-9743-47708e385063",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "d05eb896-ff5b-41de-8358-009865f4b9f2",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "19128bb5-9ac8-4f22-92e1-7a0d454caaea",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "05e0ea9f-f38f-40e2-8e3a-8aecde1f58ce",
+      "name": "矢量",
+      "type": "Circle",
+      "level": 8
+    },
+    {
+      "id": "59d7e495-98ca-4765-a9a8-0c2564d78fd1",
+      "name": "矢量",
+      "type": "Path",
+      "level": 8
+    },
+    {
+      "id": "11ea86da-4a79-41c0-bf28-1285f5242ccf",
+      "name": "最近动态",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "5cd114bd-688f-4bd3-8d76-62ad7aca44dc",
+      "name": "动态标题",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "cfc69899-b851-43fb-ba01-5a6dfd7cbb88",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "368d0ee2-799b-4a87-86f7-6a772cb25499",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "c37971f2-e77e-4b3d-bcef-c53bc23a65bb",
+      "name": "查看全部",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "d22f37e5-a428-4519-ad92-fb02a84b4fcf",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "52797ea9-08f3-4dcf-9e08-3a71e94c6b7c",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "c4170f62-5058-4acf-b70e-baac2e680312",
+      "name": "动态列表",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "e0125d94-cd15-4178-af2f-cd9aa822ca69",
+      "name": "动态项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "097486fb-f1b9-4898-887b-92c7ac4c3af8",
+      "name": "用户头像",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "b1c754be-e6ab-43a8-9acf-c746e6d888ca",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "d05edec8-1bc2-4ec9-9c3d-ef4768f7ba5f",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "e7367f94-889e-47d0-9f8b-682cd5abfc1f",
+      "name": "图层",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "47b0ddcc-b961-4c82-a19b-dbc27817e767",
+      "name": "图层",
+      "type": "Frame",
+      "level": 9
+    },
+    {
+      "id": "24d3aaa9-a27a-4e3a-b212-8ca30c089344",
+      "name": "图层",
+      "type": "Frame",
+      "level": 10
+    },
+    {
+      "id": "2b827065-809b-46ca-aa57-3cf3154afb61",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "7ae3c5e5-72b4-4c1e-9e9d-647c2ff52f11",
+      "name": "更新了场景",
+      "type": "Paragraph",
+      "level": 11
+    },
+    {
+      "id": "b9cb8248-4b94-4c29-9cf8-9a64eeeb9fa3",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "c69d1a0b-07e0-4d4c-ac6f-68c7d3e9e4ad",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "84516d29-c7f5-49c1-bc00-c2df140a8e6f",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "11050588-9895-4355-9eb4-e6081b152d4b",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "bd87eea5-06c0-47db-805f-025201eb5dda",
+      "name": "动态项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "67ad2165-da97-4ea3-9b60-7a077a65af0a",
+      "name": "用户头像",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "28cc9d9d-f43a-4dd8-aff9-908ffa04bbca",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "5c6ae456-00a0-4dae-8da0-8590f7a67400",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "2883cc09-a877-49fd-a23e-2d70a1ee1b13",
+      "name": "图层",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "dac4b315-9246-4dcd-a610-63d9323e60c6",
+      "name": "图层",
+      "type": "Frame",
+      "level": 9
+    },
+    {
+      "id": "a0230b9a-f83c-48dc-8d90-7d184944f96c",
+      "name": "图层",
+      "type": "Frame",
+      "level": 10
+    },
+    {
+      "id": "b5e20f98-3bfa-4405-8be5-136922a80168",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "44440bcb-168f-4e51-9acd-716d929ab360",
+      "name": "新增了解决方案",
+      "type": "Paragraph",
+      "level": 11
+    },
+    {
+      "id": "008ab9e6-0e37-4999-969c-3c74c0981668",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "a13cd64f-c622-4c31-9c0d-f7333d55d937",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "7c4f8440-7c93-4a72-9402-09601a6ca380",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "f24737cc-99c9-4c1c-ad48-2129d7f924fc",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "11d4e28f-d87b-4f50-a1b6-2cdfa343c364",
+      "name": "动态项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "025f4dd9-2886-4a95-a6eb-205e7f909949",
+      "name": "用户头像",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "a9e43fb4-c59f-4f53-b4f2-624568299ca9",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "7091e264-5ac1-4995-b2f9-94c397eb74ba",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "a4b1e162-541b-4c21-ab61-001b0a63bba1",
+      "name": "图层",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "26a26de3-4151-4a43-a2bd-5733cb9a7ad2",
+      "name": "图层",
+      "type": "Frame",
+      "level": 9
+    },
+    {
+      "id": "e5055b03-f07c-4e92-a0e8-659b382f76dd",
+      "name": "图层",
+      "type": "Frame",
+      "level": 10
+    },
+    {
+      "id": "9402d133-a7eb-45c4-9bc4-c97f0c00474a",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "b5b4600e-b9e2-450c-bc16-cd42cda5119e",
+      "name": "发布了案例",
+      "type": "Paragraph",
+      "level": 11
+    },
+    {
+      "id": "0dd2e280-a28d-4ffe-983f-76afd15b4a21",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "f90ea3d4-d7d4-4fb7-9bca-1861dd40be4a",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "323d0916-4d57-49d9-bcb8-b7bbee13bedf",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "8eba0d99-8b6b-475e-83c4-5321edc9665a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "06db4688-53af-4897-a805-3380cc4e1366",
+      "name": "动态项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "f1696925-9752-4a47-a054-d5092a8cfcc2",
+      "name": "用户头像",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "c24b77c8-d3e3-4a0c-bf9a-9533bb136ea2",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "90609eed-c1e0-40b8-961c-ade5ba597097",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "6ed81578-6ef4-43ea-a566-c9c7860cf2c6",
+      "name": "图层",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "dcf38166-ee2a-402f-87a2-ce586a5926bf",
+      "name": "图层",
+      "type": "Frame",
+      "level": 9
+    },
+    {
+      "id": "8111d9ce-146f-4ec1-94a0-1f4f42ec42d1",
+      "name": "图层",
+      "type": "Frame",
+      "level": 10
+    },
+    {
+      "id": "4ebfc80d-542f-4196-b7ef-2e08d576898b",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "04e312d0-0fc0-4299-b6c7-5e2f4a6e0c33",
+      "name": "更新了解决方案",
+      "type": "Paragraph",
+      "level": 11
+    },
+    {
+      "id": "f56966ae-6471-4e4f-9b71-75d1771cf200",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "08f6e710-be16-4e59-bedc-cc6ff2fb5a1d",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "979ca3dd-3d3a-4e4b-8993-7fe7dcd58377",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "afb9c68d-3a41-471c-af4e-51a5ac73abaf",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "c72addde-613a-47f6-87a9-2f2886061dbb",
+      "name": "动态项",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "026cdca7-b6be-43ac-a669-74467bdfce4f",
+      "name": "用户头像",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "dddf2a1c-4b06-4428-9235-04d3f2bc926a",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "2a6ae90f-0daa-461f-a62e-698a524a62c3",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "f25db07c-e449-4336-bc20-6c42a41141a4",
+      "name": "图层",
+      "type": "Frame",
+      "level": 8
+    },
+    {
+      "id": "af261a4a-7e5c-4ccb-85c1-c6d7dba75618",
+      "name": "图层",
+      "type": "Frame",
+      "level": 9
+    },
+    {
+      "id": "f0b18a1c-882c-42e9-8422-5f17f56b60ee",
+      "name": "图层",
+      "type": "Frame",
+      "level": 10
+    },
+    {
+      "id": "cf54384a-1b87-4038-adb4-7f0e3fca8421",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "db08af7a-d89a-4c8e-878a-6c053b198a75",
+      "name": "新增了场景",
+      "type": "Paragraph",
+      "level": 11
+    },
+    {
+      "id": "ff469b85-b9d0-4ba7-9609-455ee46f172a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "4f043139-fedf-4a55-92e7-95867a8b68a4",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 11
+    },
+    {
+      "id": "81253ebf-ee63-48eb-ba6e-a7bbe3e9e26c",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 9
+    },
+    {
+      "id": "76195f6d-a6bf-4768-ae19-7371488bf57e",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 4
+    },
+    {
+      "id": "e48f340e-d686-45b9-a671-7c8fd6f6b5b4",
+      "name": "热门资源排行",
+      "type": "Frame",
+      "level": 4
+    },
+    {
+      "id": "d2bc1d1c-0e47-413d-9107-53cdd2046519",
+      "name": "排行标题",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "4732a0be-00f6-47dd-ab57-112310503956",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "676d096d-69df-4a49-b023-e2b6cb9c3634",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "ce1ac30a-1d50-4248-89ca-753637b1f955",
+      "name": "排行筛选",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "87da0161-4538-459d-aaa0-408d597ceb03",
+      "name": "筛选按钮",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "c04c8f0a-a5a6-4ea0-8065-775c12716767",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "b872813b-8a6d-463d-b2d1-2e02b5905b5e",
+      "name": "筛选按钮",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "06f6abc8-d9aa-47f3-80ff-29267e06666a",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "238d2a80-687e-498e-a1ff-8cce9dcf7c8f",
+      "name": "筛选按钮",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "03d0e71c-393a-4fee-a31e-d5de143c6e72",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 5
+    },
+    {
+      "id": "3d86e724-a66b-4ad7-a1f7-8606d0254d19",
+      "name": "排行列表",
+      "type": "Frame",
+      "level": 5
+    },
+    {
+      "id": "69c4a7a4-6550-4a64-8223-7202150fb451",
+      "name": "排行项",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "65c8c670-4b84-406c-811a-e36caf41046c",
+      "name": "排名",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "f2f1dab5-0fcb-41fa-a50d-8fc1cd7b6d90",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "5e308667-2ce8-4f25-bf37-51316a40790f",
+      "name": "资源信息",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "fa4a47f0-41ef-4888-8b30-2dc0b2971540",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "f300b8b5-16e7-4ec7-bee9-891e05604657",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "b0800b8b-5741-4cc6-b5a2-e56c2b64083d",
+      "name": "访问趋势",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "f7aa464a-6118-4660-9e07-118a29435b86",
+      "name": "趋势值",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "6cc8c734-c431-4952-a38e-458c23e2f632",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "0d47f953-2e90-4a89-9b8a-b240be78d355",
+      "name": "排行项",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "75b42a3b-5823-4ae0-b6f3-262574cf8b6c",
+      "name": "排名",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "a0944288-1cf2-48df-bed9-2e7ede2a2c54",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "ff6e78ca-8206-4527-8a43-d187b2e31586",
+      "name": "资源信息",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "1b83d85e-84d9-4fcc-bda1-ed2a14be5c4a",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "478cd57d-8275-45bc-a7be-690a9f4791ba",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "b9ea0371-2ab9-4397-9eb2-0e26cf31ef96",
+      "name": "访问趋势",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "9ceca73f-fb31-4be7-a738-27fa406016e6",
+      "name": "趋势值",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "b1cab461-2473-4214-9c3c-365ca4e08e7f",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "886f5204-6e19-41d9-9614-2f7e609591e9",
+      "name": "排行项",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "8bcd0e3b-9895-4902-91c6-a3a898aab2b3",
+      "name": "排名",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "906d4f00-860b-4517-8537-3b2ff2ccc61d",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "0d351177-fc5e-4856-9d08-3f41d7ee9d3c",
+      "name": "资源信息",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "6b60e7a4-d001-4471-a0ee-e2b684f0bf4d",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "6d0e49b1-1245-4b60-ae47-a4bc4a144239",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "32da93de-fe4c-4e19-a4e3-74b35f1d533c",
+      "name": "访问趋势",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "17d8e9bd-2fe8-49b0-92b6-92652c837576",
+      "name": "趋势值",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "bc5cb9f9-9d8e-446a-8e9e-261aad913292",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "ca5e8833-de29-4ebe-931d-e821c6a229a3",
+      "name": "排行项",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "f9fae17f-5cec-4c3c-918b-83f716b67aba",
+      "name": "排名",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "dc6e34f5-b624-49fb-9482-98a95731a2c2",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "d89691e4-6063-4915-b4d7-0ff2361f824a",
+      "name": "资源信息",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "d1ffd21a-7262-41c6-a005-98f9e33cd02c",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "bc206c88-5452-4f26-b64a-cdb49f76c77d",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "95261d91-ce24-492c-a573-fbcfb0d48765",
+      "name": "访问趋势",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "751dc402-8ffc-46bb-9028-96648a88ca1f",
+      "name": "趋势值",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "e833fcc0-2fa6-45a0-9d0c-98e546880f09",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 6
+    },
+    {
+      "id": "faabee22-a299-4e9b-8dbc-c6ca76e67050",
+      "name": "排行项",
+      "type": "Frame",
+      "level": 6
+    },
+    {
+      "id": "764e9d3f-c54d-4c30-ae9b-234038c1d1f6",
+      "name": "排名",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "0538c7f7-63b1-4b89-8724-93f71f34db42",
+      "name": "spacer",
+      "type": "TextRect",
+      "level": 7
+    },
+    {
+      "id": "064074ec-5d70-47f2-8716-252f174b0afe",
+      "name": "资源信息",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "4400f8fe-aedc-41ba-af43-327b655965e7",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "3a446eda-ccd8-424c-8917-89ff84059e3a",
+      "name": "图层",
+      "type": "TextRect",
+      "level": 8
+    },
+    {
+      "id": "77a3cd59-2827-40f8-acc2-b95b6382fd9e",
+      "name": "访问趋势",
+      "type": "Frame",
+      "level": 7
+    },
+    {
+      "id": "349341a0-5078-4cac-bac3-1509eda56617",
+      "name": "趋势值",
+      "type": "TextRect",
+      "level": 8
+    }
+  ]
+}

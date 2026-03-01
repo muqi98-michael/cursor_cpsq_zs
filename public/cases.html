@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>客户案例列表页</title>
+    <link rel="stylesheet" href="/scenes.css" />
+  </head>
+  <body class="page-cases">
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-logo"><span class="logo-box">P</span><span id="sidebar-title"></span></div>
+        <div class="nav-group"><p class="nav-title">主导航</p><div id="main-nav"></div></div>
+        <div class="nav-group"><p class="nav-title">管理中心</p><div id="manage-nav"></div></div>
+        <div class="nav-group"><p class="nav-title">系统</p><div id="system-nav"></div></div>
+        <div class="sidebar-user">
+          <div class="avatar">ZL</div>
+          <div><p id="sidebar-user-name" class="user-name"></p><p id="sidebar-user-role" class="user-role"></p></div>
+        </div>
+      </aside>
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="topbar-right"><input id="top-search" type="text" /></div>
+        </header>
+        <section class="content">
+          <div class="page-title">
+            <div><h1 id="page-title"></h1><p id="page-subtitle"></p></div>
+            <button id="create-btn" class="primary-btn" type="button"></button>
+          </div>
+          <div class="filter-box">
+            <div id="filters" class="filters"></div>
+            <div class="filter-actions">
+              <button id="reset-btn" class="ghost-btn" type="button">重置</button>
+              <button id="query-btn" class="primary-btn" type="button">应用筛选</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr id="table-head-row"></tr></thead>
+              <tbody id="table-body"></tbody>
+            </table>
+            <div class="pagination"><div id="page-info"></div><div id="page-buttons" class="page-buttons"></div></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="/navigation.js"></script>
+    <script src="/cases.js"></script>
+  </body>
+  </html>

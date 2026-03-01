@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #f8fafc;
+  color: #1f2937;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.top-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.back-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.btn {
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #dbe2ea;
+  background: #fff;
+  padding: 0 14px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  border-color: #2563eb;
+  background: #2563eb;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.sub {
+  margin: 0;
+  color: #64748b;
+}
+
+.meta {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.tag.status-done {
+  background: #f0fdf4;
+  color: #00b42a;
+}
+
+.tag.status-pending {
+  background: #fefce8;
+  color: #ff7d00;
+}
+
+.tag.status-editing {
+  background: #f3f4f6;
+  color: #86909c;
+}
+
+.list {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  color: #475569;
+  font-size: 13px;
+}
+
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  padding: 10px;
+  font: inherit;
+}
+
+.field.full {
+  grid-column: 1 / -1;
+}
+
+.hint {
+  margin-top: 10px;
+  color: #64748b;
+  font-size: 13px;
+}

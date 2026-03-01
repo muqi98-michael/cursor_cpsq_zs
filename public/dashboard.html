@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品场景实践库-概览仪表盘</title>
+    <link rel="stylesheet" href="/dashboard.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="logo">
+          <span class="logo-mark"></span>
+          <span id="sidebar-title"></span>
+        </div>
+
+        <div class="nav-group">
+          <p class="group-title">主导航</p>
+          <div id="main-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="group-title">管理中心</p>
+          <div id="manage-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="group-title">系统</p>
+          <div id="system-nav"></div>
+        </div>
+
+        <div class="user">
+          <span id="user-initials" class="avatar"></span>
+          <div>
+            <p id="user-name" class="name"></p>
+            <p id="user-role" class="role"></p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="top-actions">
+            <button id="date-range" type="button" class="ghost"></button>
+            <input id="search-input" type="text" />
+            <button class="icon-btn" type="button" title="通知">
+              <span class="notify-dot"></span>
+              <span class="icon-glyph">🔔</span>
+            </button>
+            <button class="icon-btn" type="button" title="帮助">
+              <span class="icon-glyph">？</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="content">
+          <div class="page-title">
+            <h1 id="page-title"></h1>
+            <p id="page-subtitle"></p>
+          </div>
+
+          <section id="metrics" class="metrics"></section>
+
+          <section id="distributions" class="distributions"></section>
+
+          <section class="row">
+            <article class="panel trend">
+              <div class="panel-head">
+                <h2 id="trend-title"></h2>
+                <div id="trend-tabs" class="tabs"></div>
+              </div>
+              <div class="chart-wrap">
+                <svg id="trend-svg" viewBox="0 0 780 260" preserveAspectRatio="none"></svg>
+              </div>
+              <div id="trend-months" class="months"></div>
+            </article>
+
+            <article class="panel updates">
+              <div class="panel-head">
+                <h2 id="updates-title"></h2>
+                <button id="updates-view-all" type="button" class="text-btn"></button>
+              </div>
+              <div id="updates-list" class="updates-list"></div>
+            </article>
+          </section>
+
+          <article class="panel ranking">
+            <div class="panel-head">
+              <h2 id="ranking-title"></h2>
+              <div id="ranking-tabs" class="tabs"></div>
+            </div>
+            <div id="ranking-list" class="ranking-list"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="/navigation.js"></script>
+    <script src="/dashboard.js"></script>
+  </body>
+  </html>

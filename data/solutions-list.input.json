@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "fba722a5-cd8b-4549-8de3-79b8d20b2f81",
+    "sourceTool": "user-calicat/get_design_data",
+    "layerName": "产品场景实践库-产品解决方案列表页 2"
+  },
+  "sidebar": {
+    "title": "产品场景实践库",
+    "mainNav": [
+      { "label": "首页", "active": false },
+      { "label": "产品场景库", "active": false },
+      { "label": "产品解决方案", "active": true },
+      { "label": "客户案例", "active": false }
+    ],
+    "manageNav": ["概览", "基础数据管理", "用户管理", "权限管理", "开放管理"],
+    "systemNav": ["系统设置", "操作日志"],
+    "user": {
+      "name": "张磊",
+      "role": "产品经理"
+    }
+  },
+  "topbar": {
+    "breadcrumb": ["首页", "产品解决方案"],
+    "searchPlaceholder": "搜索解决方案..."
+  },
+  "page": {
+    "title": "产品解决方案",
+    "subtitle": "为产品场景提供的标准化解决方案库",
+    "createButton": "新增解决方案"
+  },
+  "filters": [
+    { "label": "产品", "value": "全部产品" },
+    { "label": "行业", "value": "全部行业" },
+    { "label": "创建时间", "value": "近30天" }
+  ],
+  "tableColumns": ["解决方案名称", "行业", "关联资源", "编辑者", "创建时间", "更新时间", "状态", "操作"],
+  "rows": [
+    {
+      "solutionId": "SO-20231102",
+      "name": "某汽车制造企业供应链协同解决方案",
+      "industry": "供应链",
+      "sceneCount": 1,
+      "caseCount": 2,
+      "editor": "张磊",
+      "createdAt": "2023-11-05",
+      "updatedAt": "2023-11-15",
+      "status": "已发布"
+    },
+    {
+      "solutionId": "SO-20231101",
+      "name": "财务共享中心解决方案",
+      "industry": "财务",
+      "sceneCount": 2,
+      "caseCount": 3,
+      "editor": "王小明",
+      "createdAt": "2023-11-10",
+      "updatedAt": "2023-11-14",
+      "status": "已发布"
+    },
+    {
+      "solutionId": "SO-20231103",
+      "name": "智能营销触达方案",
+      "industry": "制造",
+      "sceneCount": 3,
+      "caseCount": 4,
+      "editor": "李静",
+      "createdAt": "2023-10-28",
+      "updatedAt": "2023-11-10",
+      "status": "开发中"
+    },
+    {
+      "solutionId": "SO-20231104",
+      "name": "财务数字化转型解决方案",
+      "industry": "财务",
+      "sceneCount": 2,
+      "caseCount": 1,
+      "editor": "赵伟",
+      "createdAt": "2023-10-20",
+      "updatedAt": "2023-11-05",
+      "status": "待发布"
+    },
+    {
+      "solutionId": "SO-20231105",
+      "name": "供应链数字化转型解决方案",
+      "industry": "供应链",
+      "sceneCount": 1,
+      "caseCount": 0,
+      "editor": "陈思思",
+      "createdAt": "2023-10-15",
+      "updatedAt": "2023-10-25",
+      "status": "已下架"
+    }
+  ],
+  "pagination": {
+    "from": 1,
+    "to": 5,
+    "total": 12,
+    "current": 1,
+    "pages": [1, 2, 3]
+  }
+}

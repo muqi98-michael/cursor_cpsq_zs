@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>系统设置</title>
+    <link rel="stylesheet" href="/scenes.css" />
+    <style>
+      .settings-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+      .setting-card {
+        background: #fff;
+        border: 1px solid #f3f4f6;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      }
+      .tabs-card {
+        position: sticky;
+        top: 76px;
+        z-index: 5;
+      }
+      #section-system-params,
+      #section-template-management,
+      #section-security-settings,
+      #section-notify-settings {
+        scroll-margin-top: 84px;
+      }
+      .tabs {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .tab-btn {
+        height: 35px;
+        border-radius: 999px;
+        border: 1px solid #e5e7eb;
+        padding: 0 16px;
+        background: #fff;
+        color: #475569;
+      }
+      .tab-btn.active {
+        border-color: #bfdbfe;
+        background: #eff6ff;
+        color: #2563eb;
+      }
+      .item-row {
+        display: grid;
+        grid-template-columns: 240px 260px minmax(260px, 1fr) 80px;
+        gap: 13px;
+        align-items: center;
+        min-height: 58px;
+        padding: 11px 0;
+        border-top: 1px solid #f1f5f9;
+      }
+      .item-row:first-child { border-top: 0; }
+      .item-name { font-weight: 600; color: #334155; }
+      .item-value {
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        min-height: 38px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        background: #fff;
+        color: #334155;
+      }
+      .item-desc { color: #64748b; font-size: 13px; }
+      .item-op { color: #2563eb; font-size: 13px; cursor: pointer; justify-self: end; }
+      .tpl-block { margin-top: 14px; border-top: 1px solid #f1f5f9; padding-top: 12px; }
+      .tpl-block:first-child { margin-top: 0; border-top: 0; padding-top: 0; }
+      .tpl-title { margin: 0 0 6px; font-size: 16px; }
+      .tpl-desc { margin: 0 0 10px; color: #64748b; font-size: 14px; }
+      .field-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+      .field-tag { background: #f8fafc; border: 1px solid #e2e8f0; color: #475569; border-radius: 999px; padding: 2px 10px; font-size: 12px; }
+      .card-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 12px; }
+    </style>
+  </head>
+  <body class="page-settings">
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <span class="logo-box">P</span>
+          <span id="sidebar-title"></span>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">主导航</p>
+          <div id="main-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">管理中心</p>
+          <div id="manage-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">系统</p>
+          <div id="system-nav"></div>
+        </div>
+
+        <div class="sidebar-user">
+          <div class="avatar">ZL</div>
+          <div>
+            <p id="sidebar-user-name" class="user-name"></p>
+            <p id="sidebar-user-role" class="user-role"></p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="topbar-right">
+            <input id="top-search" type="text" />
+          </div>
+        </header>
+
+        <section class="content">
+          <div class="page-title">
+            <div>
+              <h1 id="page-title"></h1>
+              <p id="page-subtitle"></p>
+            </div>
+          </div>
+
+          <div class="setting-card tabs-card">
+            <div id="tabs" class="tabs"></div>
+          </div>
+
+          <div class="settings-grid">
+            <section id="section-system-params" class="setting-card">
+              <h3 style="margin: 0 0 10px">系统参数</h3>
+              <div id="system-params"></div>
+              <div class="card-actions">
+                <button class="ghost-btn" type="button">重置</button>
+                <button class="primary-btn" type="button">保存设置</button>
+              </div>
+            </section>
+
+            <section id="section-template-management" class="setting-card">
+              <h3 style="margin: 0 0 10px">模板管理</h3>
+              <div id="template-modules"></div>
+            </section>
+
+            <section id="section-security-settings" class="setting-card">
+              <h3 style="margin: 0 0 10px">安全设置</h3>
+              <div id="security-settings"></div>
+            </section>
+
+            <section id="section-notify-settings" class="setting-card">
+              <h3 style="margin: 0 0 10px">通知设置</h3>
+              <div id="notify-settings"></div>
+            </section>
+
+            <section class="setting-card">
+              <h3 style="margin: 0 0 10px">文件上传设置</h3>
+              <div id="upload-settings"></div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="/navigation.js"></script>
+    <script src="/settings.js"></script>
+  </body>
+  </html>

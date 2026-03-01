@@ -1,0 +1,19 @@
+{
+  "name": "calicat-homepage-mcp-demo",
+  "version": "1.0.0",
+  "description": "本地轻量 Web 应用：基于 Calicat 图层 MCP 数据生成首页",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "calicat",
+    "homepage",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

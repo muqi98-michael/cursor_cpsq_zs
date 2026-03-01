@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品场景实践库-首页</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="brand">
+        <div class="logo-dot"></div>
+        <span id="brand-text"></span>
+      </div>
+      <div class="user">
+        <span class="avatar" id="user-initials"></span>
+        <span id="user-name"></span>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1 id="hero-title"></h1>
+        <p id="hero-subtitle"></p>
+        <div class="search-box">
+          <input id="search-input" type="text" />
+          <button id="search-btn" type="button"></button>
+        </div>
+      </section>
+
+      <section class="quick-entry">
+        <div id="quick-entry-grid" class="card-grid"></div>
+      </section>
+
+      <section class="updates card">
+        <div class="section-title-row">
+          <h2>最近更新</h2>
+          <a href="#" class="view-all">查看全部</a>
+        </div>
+        <div id="updates-list"></div>
+      </section>
+    </main>
+
+    <script src="/navigation.js"></script>
+    <script src="/app.js"></script>
+  </body>
+  </html>

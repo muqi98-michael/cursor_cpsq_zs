@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>权限配置</title>
+    <link rel="stylesheet" href="/scenes.css" />
+    <style>
+      .template-card,
+      .tree-card {
+        background: #fff;
+        border: 1px solid #f3f4f6;
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+      }
+      .top-actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .search-wrap {
+        width: 240px;
+        height: 38px;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0 12px;
+        color: #9ca3af;
+      }
+      .search-wrap input {
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: transparent;
+        font-size: 14px;
+        color: #334155;
+      }
+      .top-icon {
+        width: 36px;
+        height: 36px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #6b7280;
+        background: #fff;
+      }
+      .template-row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .template-btn {
+        height: 38px;
+        padding: 0 18px;
+        border-radius: 10px;
+        border: 1px solid #dbe2ea;
+        background: #fff;
+        color: #334155;
+      }
+      .template-btn.active {
+        background: #2563eb;
+        color: #fff;
+        border-color: #2563eb;
+      }
+      .tree-card {
+        margin-top: 16px;
+        padding: 0;
+        overflow: hidden;
+      }
+      .tree-head {
+        height: 56px;
+        background: #f9fafb;
+        border-bottom: 1px solid #f1f5f9;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+      }
+      .tree-head h3 {
+        margin: 0;
+        font-size: 16px;
+        color: #334155;
+      }
+      .tree-content {
+        padding: 15px 0;
+      }
+      .tree-module {
+        margin: 0;
+      }
+      .module-name {
+        margin: 0;
+        height: 48px;
+        background: #f9fafb;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 15px;
+        color: #334155;
+        padding: 0 20px;
+      }
+      .module-icon {
+        color: #3b82f6;
+      }
+      .perm-item {
+        height: 63px;
+        border-top: 1px solid #f1f5f9;
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        align-items: center;
+        padding: 0 20px;
+      }
+      .perm-item h4 {
+        margin: 0;
+        font-size: 14px;
+        color: #334155;
+      }
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .action-cell {
+        width: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        color: #64748b;
+        font-size: 12px;
+      }
+      .action-check {
+        width: 18px;
+        height: 18px;
+        border-radius: 4px;
+        border: 1px solid #d1d5db;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .action-check.checked {
+        background: #2563eb;
+        border-color: #2563eb;
+        color: #fff;
+      }
+      .footer-actions {
+        margin-top: 16px;
+        display: flex;
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <span class="logo-box">P</span>
+          <span id="sidebar-title"></span>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">主导航</p>
+          <div id="main-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">管理中心</p>
+          <div id="manage-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">系统</p>
+          <div id="system-nav"></div>
+        </div>
+
+        <div class="sidebar-user">
+          <div class="avatar">ZL</div>
+          <div>
+            <p id="sidebar-user-name" class="user-name"></p>
+            <p id="sidebar-user-role" class="user-role"></p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="top-actions">
+            <label class="search-wrap">
+              <span>⌕</span>
+              <input id="perm-search" type="text" />
+            </label>
+            <span class="top-icon">🔔</span>
+            <span class="top-icon">?</span>
+          </div>
+        </header>
+
+        <section class="content">
+          <div class="page-title">
+            <div>
+              <h1 id="page-title"></h1>
+              <p id="page-subtitle"></p>
+            </div>
+          </div>
+
+          <section class="template-card">
+            <h3 style="margin: 0 0 12px">选择权限模板</h3>
+            <div id="template-row" class="template-row"></div>
+          </section>
+
+          <section class="tree-card">
+            <div class="tree-head"><h3>功能权限配置</h3></div>
+            <div id="tree-root" class="tree-content"></div>
+          </section>
+          <div class="footer-actions">
+            <button id="save-btn" class="primary-btn" type="button"></button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="/navigation.js"></script>
+    <script src="/permissions.js"></script>
+  </body>
+  </html>

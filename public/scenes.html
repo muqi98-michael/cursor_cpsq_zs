@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品场景库-列表页</title>
+    <link rel="stylesheet" href="/scenes.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <span class="logo-box">P</span>
+          <span id="sidebar-title"></span>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">主导航</p>
+          <div id="main-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">管理中心</p>
+          <div id="manage-nav"></div>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">系统</p>
+          <div id="system-nav"></div>
+        </div>
+
+        <div class="sidebar-user">
+          <div class="avatar">张</div>
+          <div>
+            <p id="sidebar-user-name" class="user-name"></p>
+            <p id="sidebar-user-role" class="user-role"></p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div id="breadcrumb" class="breadcrumb"></div>
+          <div class="topbar-right">
+            <input id="top-search" type="text" />
+            <button class="icon-btn notify-btn" type="button" title="通知">
+              <span class="notify-dot"></span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a6 6 0 0 0-6 6v3.6L4.3 14a1 1 0 0 0 .8 1.6h13.8a1 1 0 0 0 .8-1.6L18 11.6V8a6 6 0 0 0-6-6Zm0 20a3 3 0 0 1-2.8-2h5.6A3 3 0 0 1 12 22Z"/></svg>
+            </button>
+            <button class="icon-btn" type="button" title="帮助">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 17h2v2h-2v-2Zm1-15a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Zm.1-14a4 4 0 0 0-4 4h2a2 2 0 1 1 2.8 1.8 3.2 3.2 0 0 0-1.9 2.9V16h2v-.3a1.3 1.3 0 0 1 .8-1.2A4 4 0 0 0 12.1 6Z"/></svg>
+            </button>
+          </div>
+        </header>
+
+        <section class="content">
+          <div class="page-title">
+            <div>
+              <h1 id="page-title"></h1>
+              <p id="page-subtitle"></p>
+            </div>
+            <button id="create-btn" class="primary-btn" type="button"></button>
+          </div>
+
+          <div class="filter-box">
+            <div id="filters" class="filters"></div>
+            <div class="filter-actions">
+              <button id="reset-btn" class="ghost-btn" type="button">重置</button>
+              <button id="query-btn" class="primary-btn" type="button">查询</button>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr id="table-head-row"></tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+
+            <div class="pagination">
+              <div id="page-info"></div>
+              <div id="page-buttons" class="page-buttons"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/navigation.js"></script>
+    <script src="/scenes.js"></script>
+  </body>
+  </html>

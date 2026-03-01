@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "fddb1787-4aa1-4198-8571-088c78ef040a",
+    "sourceTool": "user-calicat/get_design_data",
+    "layerName": "产品场景实践库-系统设置"
+  },
+  "sidebar": {
+    "title": "产品场景实践库",
+    "mainNav": [
+      { "label": "首页", "active": false },
+      { "label": "产品场景库", "active": false },
+      { "label": "产品解决方案", "active": false },
+      { "label": "客户案例", "active": false }
+    ],
+    "manageNav": [
+      { "label": "概览", "active": false },
+      { "label": "基础数据管理", "active": false },
+      { "label": "用户管理", "active": false },
+      { "label": "权限管理", "active": false }
+    ],
+    "systemNav": [
+      { "label": "系统设置", "active": true },
+      { "label": "操作日志", "active": false }
+    ],
+    "user": {
+      "name": "张磊",
+      "role": "产品经理"
+    }
+  },
+  "topbar": {
+    "breadcrumb": ["首页", "系统设置"],
+    "searchPlaceholder": "搜索设置..."
+  },
+  "page": {
+    "title": "系统设置",
+    "subtitle": "配置系统参数和模板"
+  },
+  "tabs": ["系统参数", "模板管理", "安全设置", "通知设置"],
+  "activeTab": "系统参数",
+  "systemParams": [
+    { "name": "系统名称", "value": "产品场景实践库", "desc": "系统显示的名称" },
+    { "name": "默认语言", "value": "简体中文", "desc": "系统默认显示语言" },
+    { "name": "日期格式", "value": "YYYY-MM-DD", "desc": "系统日期显示格式" },
+    { "name": "每页显示条数", "value": "10条", "desc": "列表每页显示的记录条数" },
+    { "name": "公告状态", "value": "开启", "desc": "设置公告是否显示" }
+  ],
+  "templateModules": [
+    {
+      "title": "产品场景模板",
+      "desc": "自定义产品场景的字段和布局，系统将根据模板创建新的产品场景。",
+      "fields": [
+        "场景名称 | 文本输入 | 必填",
+        "场景描述 | 多行文本 | 必填",
+        "行业 | 列表 | 必填",
+        "痛点 | 多行文本 | 必填",
+        "核心功能 | 多选 | 必填",
+        "实施步骤 | 步骤列表 | 选填"
+      ]
+    },
+    {
+      "title": "解决方案模板",
+      "desc": "自定义解决方案的字段和布局，系统将根据模板创建新的解决方案。",
+      "fields": ["方案名称 | 文本输入 | 必填", "方案概述 | 多行文本 | 必填", "适用行业 | 列表 | 必填"]
+    },
+    {
+      "title": "客户案例模板",
+      "desc": "自定义客户案例的字段和布局，系统将根据模板创建新的客户案例。",
+      "fields": ["案例名称 | 文本输入 | 必填", "客户名称 | 文本输入 | 必填", "项目背景 | 多行文本 | 必填", "项目成果 | 多行文本 | 必填"]
+    }
+  ],
+  "securitySettings": [
+    { "name": "密码长度要求", "value": "8位字符", "desc": "设置用户密码的最小长度" },
+    { "name": "密码复杂度要求", "value": "强", "desc": "设置密码是否需要包含大小写字母、数字和特殊字符" },
+    { "name": "密码有效期", "value": "90天", "desc": "设置密码有效天数，过期后需要修改密码" },
+    { "name": "密码历史限制", "value": "5次", "desc": "设置不能使用最近几次使用过的密码" },
+    { "name": "登录失败次数阈值", "value": "5次", "desc": "设置登录失败次数达到阈值后锁定账号" },
+    { "name": "账号锁定时间", "value": "30分钟", "desc": "设置账号锁定的时长" },
+    { "name": "登录失败锁定", "value": "开启", "desc": "设置登录失败后锁定账号策略" },
+    { "name": "IP登录限制", "value": "关闭", "desc": "是否限制只能在指定IP段登录" }
+  ],
+  "notifySettings": [
+    { "name": "内容更新通知", "value": "开启", "desc": "当有内容更新时发送通知" },
+    { "name": "评论回复通知", "value": "开启", "desc": "当有评论回复时发送通知" },
+    { "name": "新用户注册通知", "value": "开启", "desc": "当有新用户注册时发送通知" },
+    { "name": "系统公告通知", "value": "开启", "desc": "当发布系统公告时发送通知" }
+  ],
+  "uploadSettings": [
+    { "name": "最大上传文件大小", "value": "50MB", "desc": "单个文件的最大上传大小" },
+    { "name": "允许上传的文件类型", "value": "doc, docx, pdf, xls, xlsx, ppt, pptx, jpg, png", "desc": "设置允许上传的文件格式" }
+  ]
+}

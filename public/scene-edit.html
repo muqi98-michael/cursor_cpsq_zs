@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>编辑场景</title>
+    <link rel="stylesheet" href="/scene-page.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="top-actions">
+        <a id="back-detail" class="back-link" href="#">← 返回详情</a>
+        <button id="save-btn" class="btn primary" type="button">保存</button>
+      </div>
+
+      <section class="card">
+        <h1 class="title">编辑产品场景</h1>
+        <p class="sub">修改后仅在本地页面演示，不会写回服务端数据文件。</p>
+      </section>
+
+      <section class="card">
+        <form id="edit-form" class="form-grid">
+          <div class="field">
+            <label for="scene-id">场景编号</label>
+            <input id="scene-id" type="text" readonly />
+          </div>
+          <div class="field">
+            <label for="scene-name">场景名称</label>
+            <input id="scene-name" type="text" />
+          </div>
+          <div class="field">
+            <label for="scene-industry">行业</label>
+            <input id="scene-industry" type="text" />
+          </div>
+          <div class="field">
+            <label for="scene-status">状态</label>
+            <select id="scene-status">
+              <option value="已完善">已完善</option>
+              <option value="待完善">待完善</option>
+              <option value="编辑中">编辑中</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="scene-pain">痛点</label>
+            <textarea id="scene-pain" rows="3"></textarea>
+          </div>
+          <div class="field">
+            <label for="scene-editor">编辑者</label>
+            <input id="scene-editor" type="text" />
+          </div>
+          <div class="field">
+            <label for="scene-updated">更新时间</label>
+            <input id="scene-updated" type="date" />
+          </div>
+        </form>
+        <p id="save-hint" class="hint"></p>
+      </section>
+    </main>
+
+    <script src="/scene-edit.js"></script>
+  </body>
+  </html>

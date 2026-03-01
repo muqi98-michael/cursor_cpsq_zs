@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "4ab52c29-b5d3-44e3-8777-d5ac829341a9",
+    "sourceTool": "user-calicat/get_design_data",
+    "layerName": "后台管理-开放管理页面"
+  },
+  "sidebar": {
+    "title": "产品场景实践库",
+    "mainNav": [
+      { "label": "首页", "active": false },
+      { "label": "产品场景库", "active": true },
+      { "label": "产品解决方案", "active": false },
+      { "label": "客户案例", "active": false }
+    ],
+    "manageNav": [
+      { "label": "概览", "active": false },
+      { "label": "基础数据管理", "active": false },
+      { "label": "用户管理", "active": false },
+      { "label": "权限管理", "active": false },
+      { "label": "开放管理", "active": true }
+    ],
+    "systemNav": [
+      { "label": "系统设置", "active": false },
+      { "label": "操作日志", "active": false }
+    ],
+    "user": {
+      "name": "张磊",
+      "role": "产品经理"
+    }
+  },
+  "topbar": {
+    "breadcrumb": ["首页", "开放管理"]
+  },
+  "page": {
+    "title": "开放管理",
+    "subtitle": "管理系统对外开放的接口和服务，配置第三方应用接入权限"
+  },
+  "cardsTop": [
+    {
+      "title": "API开放方式",
+      "desc": "管理系统对外提供的API接口及调用方式",
+      "icon": "API",
+      "tone": "blue",
+      "action": "查看详情"
+    },
+    {
+      "title": "MCP服务",
+      "desc": "查看MCP协议内容及服务配置",
+      "icon": "MCP",
+      "tone": "purple",
+      "action": "查看详情"
+    }
+  ],
+  "cardsBottom": [
+    {
+      "title": "金蝶官网开放",
+      "desc": "配置金蝶官网接入的开放权限",
+      "icon": "官",
+      "tone": "green"
+    },
+    {
+      "title": "AI产品助手开放",
+      "desc": "配置AI产品助手的开放参数",
+      "icon": "助",
+      "tone": "amber"
+    },
+    {
+      "title": "AI问答开放",
+      "desc": "管理AI问答功能的开放设置",
+      "icon": "答",
+      "tone": "indigo"
+    },
+    {
+      "title": "新增开放配置",
+      "desc": "",
+      "icon": "+",
+      "tone": "gray",
+      "isAdd": true
+    }
+  ]
+}

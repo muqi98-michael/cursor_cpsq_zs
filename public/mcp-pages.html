@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCP 图层实现索引</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        background: #f8fafc;
+        color: #111827;
+      }
+      h1 {
+        margin: 0 0 12px;
+      }
+      .hint {
+        color: #64748b;
+        margin-bottom: 16px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        gap: 12px;
+      }
+      .item {
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        background: #fff;
+        padding: 12px;
+      }
+      .item p {
+        margin: 4px 0;
+      }
+      a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      code {
+        font-size: 12px;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>图层实现索引</h1>
+    <p class="hint">未重复已实现页面；以下为本轮新增或按图层坐标渲染页面。</p>
+    <div class="grid">
+      <div class="item">
+        <p><strong>登录页</strong></p>
+        <p><a href="/login.html">打开页面</a></p>
+        <p><code>node-id: 8ca4a7e6-397c-436a-bfe0-9fd80a749bf3</code></p>
+      </div>
+      <div class="item">
+        <p><strong>系统设置</strong></p>
+        <p><a href="/settings.html">打开页面</a></p>
+        <p><code>node-id: fddb1787-4aa1-4198-8571-088c78ef040a</code></p>
+      </div>
+      <div class="item">
+        <p><strong>权限管理</strong></p>
+        <p><a href="/prototype.html?node=2ba3ce23-c775-4d50-bf02-2f394c6e3c60">打开页面</a></p>
+        <p><code>node-id: 2ba3ce23-c775-4d50-bf02-2f394c6e3c60</code></p>
+      </div>
+      <div class="item">
+        <p><strong>产品解决方案列表</strong></p>
+        <p><a href="/solutions.html">打开页面</a></p>
+        <p><code>node-id: fba722a5-cd8b-4549-8de3-79b8d20b2f81</code></p>
+      </div>
+      <div class="item">
+        <p><strong>产品管理页面</strong></p>
+        <p><a href="/prototype.html?node=758694ba-8efa-4aeb-9c22-64c66c35f5e1">打开页面</a></p>
+        <p><code>node-id: 758694ba-8efa-4aeb-9c22-64c66c35f5e1</code></p>
+      </div>
+      <div class="item">
+        <p><strong>用户管理页面</strong></p>
+        <p><a href="/prototype.html?node=e05b02c7-821a-439f-9950-0f5ea48fb1d3">打开页面</a></p>
+        <p><code>node-id: e05b02c7-821a-439f-9950-0f5ea48fb1d3</code></p>
+      </div>
+      <div class="item">
+        <p><strong>权限配置页面</strong></p>
+        <p><a href="/permissions.html">打开页面</a></p>
+        <p><code>node-id: 047802fe-4c05-4c92-a8f4-572c57a9d31d</code></p>
+      </div>
+      <div class="item">
+        <p><strong>供应链解决方案详情页</strong></p>
+        <p><a href="/solutions/SO-20231102">打开页面</a></p>
+        <p><code>node-id: 3bf3c89e-e3f2-45ad-8f64-7e5bf5546225</code></p>
+      </div>
+      <div class="item">
+        <p><strong>客户案例详情页</strong></p>
+        <p><a href="/cases/CA-20231101">打开页面</a></p>
+        <p><code>node-id: 待确认</code></p>
+      </div>
+      <div class="item">
+        <p><strong>已实现复用：场景列表</strong></p>
+        <p><a href="/scenes.html">打开页面</a></p>
+        <p><code>node-id: d2aeb5ab-8b11-4d78-86c8-586541b6cc68</code></p>
+      </div>
+      <div class="item">
+        <p><strong>已实现复用：供应商协同场景详情</strong></p>
+        <p><a href="/scenes/SC-2023002">打开页面</a></p>
+        <p><code>node-id: d8f4ea8d-4244-4e1d-b09f-9332d5f93d9c</code></p>
+      </div>
+    </div>
+  </body>
+  </html>

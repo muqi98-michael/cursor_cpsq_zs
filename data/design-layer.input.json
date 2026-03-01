@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "fileId": "2026964440132292608",
+    "selectedLayerId": "e0e02d60-d6bf-49b0-aee8-4fd40c393411",
+    "sourceTool": "user-user-calicat/get_design_data",
+    "layerName": "产品场景实践库-首页 6"
+  },
+  "navigation": {
+    "logoTitle": "产品场景实践库",
+    "userName": "张磊",
+    "userInitials": "ZL"
+  },
+  "hero": {
+    "title": "产品场景实践库",
+    "subtitle": "探索财务与供应链领域的最佳实践场景，提升业务效率与决策质量",
+    "searchPlaceholder": "搜索产品场景、解决方案、案例...",
+    "searchButtonText": "搜索"
+  },
+  "quickEntries": [
+    {
+      "title": "产品场景库",
+      "iconBg": "#DBEAFE",
+      "iconColor": "#2563EB"
+    },
+    {
+      "title": "解决方案",
+      "iconBg": "#E0E7FF",
+      "iconColor": "#4F46E5"
+    },
+    {
+      "title": "客户案例",
+      "iconBg": "#DCFCE7",
+      "iconColor": "#16A34A"
+    }
+  ],
+  "recentUpdates": [
+    {
+      "title": "供应商绩效评估与管理场景",
+      "category": "供应链管理",
+      "updatedAt": "2023-11-15"
+    },
+    {
+      "title": "采购需求管理与审批流程场景",
+      "category": "供应链管理",
+      "updatedAt": "2023-11-14"
+    },
+    {
+      "title": "应付账款自动化处理场景",
+      "category": "财务管理",
+      "updatedAt": "2023-11-12"
+    }
+  ]
+}

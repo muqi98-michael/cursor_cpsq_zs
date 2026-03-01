@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>产品场景实践库-登录页</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #f9fafb;
+        font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+        color: #1e293b;
+      }
+      .wrap {
+        width: 448px;
+        padding: 32px;
+      }
+      .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 32px;
+      }
+      .brand .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: #eff6ff;
+        color: #2563eb;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .brand .text {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+        padding: 24px;
+      }
+      .title {
+        margin: 0 0 18px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .field {
+        margin-bottom: 16px;
+      }
+      .field label {
+        display: block;
+        margin-bottom: 8px;
+        color: #64748b;
+        font-size: 14px;
+      }
+      .input-row {
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        color: #334155;
+      }
+      .prefix {
+        color: #6b7280;
+        margin-right: 12px;
+      }
+      .input {
+        border: 0;
+        outline: none;
+        width: 100%;
+        font-size: 14px;
+        color: #334155;
+      }
+      .code-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+      .code-link {
+        color: #2563eb;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      .submit {
+        margin-top: 8px;
+        width: 100%;
+        height: 44px;
+        border: 0;
+        border-radius: 8px;
+        background: #2563eb;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .footer {
+        margin-top: 16px;
+        text-align: left;
+      }
+      .footer a {
+        color: #2563eb;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .hint {
+        margin-top: 10px;
+        min-height: 20px;
+        font-size: 12px;
+        color: #64748b;
+      }
+      .hint.error {
+        color: #dc2626;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <div class="brand">
+        <span class="icon">P</span>
+        <span class="text">产品场景实践库</span>
+      </div>
+      <section class="card">
+        <h1 class="title">账号登录</h1>
+
+        <div class="field">
+          <label>手机号</label>
+          <div class="input-row">
+            <span class="prefix">+86</span>
+            <input id="phone-input" class="input" placeholder="请输入手机号" />
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="code-row">
+            <label style="margin: 0">验证码</label>
+            <a id="code-link" class="code-link" href="#">获取验证码</a>
+          </div>
+          <div class="input-row">
+            <input id="code-input" class="input" placeholder="请输入验证码" />
+          </div>
+        </div>
+
+        <button id="login-btn" class="submit" type="button">登录</button>
+        <p id="login-hint" class="hint"></p>
+        <div class="footer"><a href="#">忘记密码?</a></div>
+      </section>
+    </main>
+    <script src="/login.js"></script>
+  </body>
+  </html>
