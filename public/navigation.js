@@ -1,4 +1,12 @@
 (function initNavigationMap() {
+  function getBasePath() {
+    if (!window.location.hostname.endsWith("github.io")) return "";
+    const firstSegment = window.location.pathname.split("/").filter(Boolean)[0];
+    return firstSegment ? `/${firstSegment}` : "";
+  }
+
+  const basePath = getBasePath();
+
   const exactRouteMap = {
     首页: "/",
     产品场景库: "/scenes.html",
@@ -41,10 +49,10 @@
   function getRouteForLabel(label) {
     const normalized = normalizeLabel(label);
     if (!normalized) return null;
-    if (exactRouteMap[normalized]) return exactRouteMap[normalized];
+    if (exactRouteMap[normalized]) return `${basePath}${exactRouteMap[normalized]}`;
 
     const rule = fuzzyRouteRules.find((item) => normalized.includes(item.includes));
-    return rule ? rule.route : null;
+    return rule ? `${basePath}${rule.route}` : null;
   }
 
   function bindByLabel(element, label) {

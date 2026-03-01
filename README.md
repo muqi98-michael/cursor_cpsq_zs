@@ -9,6 +9,49 @@
 - MCP 工具：`user-user-calicat/get_design_data`
 - 图层-页面关系台账：`docs/mcp-layer-page-map.md`（支持 1 页面关联多个新老图层）
 
+## GitHub 连接信息（已存储）
+
+- 远程仓库（origin）：`https://github.com/muqi98-michael/cursor_cpsq_zs.git`
+- Pages 地址：`https://muqi98-michael.github.io/cursor_cpsq_zs/`
+
+## 迁移到另一台电脑（Cursor）
+
+推荐方式（最稳）：
+
+```bash
+git clone https://github.com/muqi98-michael/cursor_cpsq_zs.git
+cd cursor_cpsq_zs
+npm install
+npm start
+```
+
+如果你是“打包目录”拷贝过去：
+
+- 请确保连同隐藏目录 `.git` 一起拷贝，否则会丢失 GitHub 连接关系。
+- 到新电脑后执行：`npm install && npm start`
+- 直接用 Cursor 打开该目录即可继续开发。
+- 或执行一键脚本：`bash scripts/new-computer-run.sh`
+
+## 一键克隆 + 启动（任意目录执行）
+
+在任意目录执行下面命令：
+
+```bash
+bash /path/to/cursor_cpsq_zs/scripts/clone-and-run.sh
+```
+
+可选环境变量（不传则用默认值）：
+
+- `REPO_URL`（默认：`https://github.com/muqi98-michael/cursor_cpsq_zs.git`）
+- `PROJECT_NAME`（默认：`cursor_cpsq_zs`）
+- `BRANCH`（默认：`main`）
+
+示例：
+
+```bash
+REPO_URL="https://github.com/muqi98-michael/cursor_cpsq_zs.git" PROJECT_NAME="demo_proj" BRANCH="main" bash /path/to/cursor_cpsq_zs/scripts/clone-and-run.sh
+```
+
 ## 本地运行
 
 ```bash

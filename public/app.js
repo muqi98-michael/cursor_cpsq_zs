@@ -1,9 +1,18 @@
 async function loadHomepage() {
-  const response = await fetch("/api/homepage-content");
-  if (!response.ok) {
-    throw new Error("无法加载首页内容");
+  // GitHub Pages 是纯静态托管，优先读取静态 JSON。
+  const sources = ["./homepage-content.json", "/api/homepage-content"];
+
+  for (const url of sources) {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        return response.json();
+      }
+    } catch (error) {
+      // 继续尝试下一个来源
+    }
   }
-  return response.json();
+  throw new Error("无法加载首页内容");
 }
 
 function renderNavigation(data) {
